@@ -1,2 +1,2 @@
 # hello-world
-this is a repository
+This is a test in GitHub.
