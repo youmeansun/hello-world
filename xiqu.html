@@ -1,0 +1,6061 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>戏曲进校园600题</title>
+    <style>
+    li{color:blue}
+    ul{color:gray}
+    </style>
+</head>
+<body>
+    <input type="text" id="txt" onfocus="this.select();">
+    <input type="button" value="搜索" id="search" >
+    <p />
+    <div id="div1">仅支持题目拼音首字母小写搜索</div>
+    <script>
+    var SETS=[
+  {
+    "set": "戏曲进校园600题", 
+    "questions": [
+      {
+        "A": "200多年", 
+        "C": "400多年", 
+        "B": "300多年", 
+        "D": "500多年", 
+        "pinyin": "hjcczjdyydsn", 
+        "question": "汉剧传承至今大约有多少年？", 
+        "sn": "1", 
+        "answer": "C"
+      }, 
+      {
+        "A": "400多出", 
+        "C": "700多出", 
+        "B": "500多出", 
+        "D": "800多出", 
+        "pinyin": "hjdssqjmydsc", 
+        "question": "汉剧鼎盛时期剧目有多少出？", 
+        "sn": "2", 
+        "answer": "D"
+      }, 
+      {
+        "A": "三庆班", 
+        "C": "和春班", 
+        "B": "四喜班", 
+        "D": "大汉班", 
+        "pinyin": "hjhjjyyshsyqlbsdsdhbjjssxlbsyhbds", 
+        "question": "汉剧和京剧渊源深厚，始于乾隆八十大寿的“徽班进京”盛事。下列不属于“徽班”的是？", 
+        "sn": "3", 
+        "answer": "D"
+      }, 
+      {
+        "A": "四大行当", 
+        "C": "八大行当", 
+        "B": "五大行当", 
+        "D": "十大行当", 
+        "pinyin": "hjydsghd", 
+        "question": "汉剧有多少个行当？", 
+        "sn": "4", 
+        "answer": "D"
+      }, 
+      {
+        "A": "西皮、二黄", 
+        "C": "西皮、昆腔", 
+        "B": "昆腔、高腔", 
+        "D": "高腔、二黄", 
+        "pinyin": "hjdsqzybkh", 
+        "question": "汉剧的声腔主要包括（ ）和（ ）。", 
+        "sn": "5", 
+        "answer": "A"
+      }, 
+      {
+        "A": "康熙", 
+        "C": "乾隆", 
+        "B": "雍正", 
+        "D": "顺治", 
+        "pinyin": "hjyjjdshyysynywhd", 
+        "question": "汉剧与京剧的深厚渊源，始于哪一位皇帝？", 
+        "sn": "6", 
+        "answer": "A"
+      }, 
+      {
+        "A": "吴天保", 
+        "C": "李春森", 
+        "B": "董瑶阶", 
+        "D": "魏平原", 
+        "pinyin": "hjdhgsddbxjm", 
+        "question": "汉剧《打花鼓》是（ ）的代表性剧目。", 
+        "sn": "7", 
+        "answer": "B"
+      }, 
+      {
+        "A": "踩盘子", 
+        "C": "登楼步", 
+        "B": "十字步", 
+        "D": "下楼步", 
+        "pinyin": "dyjzdhgzsclsmtb", 
+        "question": "董瑶阶在《打花鼓》中首创了什么台步？", 
+        "sn": "8", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三个", 
+        "C": "五个", 
+        "B": "四个", 
+        "D": "六个", 
+        "pinyin": "hjdhgyjgrwjs", 
+        "question": "汉剧《打花鼓》有几个人物角色？", 
+        "sn": "9", 
+        "answer": "A"
+      }, 
+      {
+        "A": "八贴、五丑", 
+        "C": "六外、七小", 
+        "B": "三生、四旦", 
+        "D": "八贴、九夫", 
+        "pinyin": "hjdhgzdrwbknjghd", 
+        "question": "汉剧《打花鼓》中的人物包括哪几个行当？", 
+        "sn": "10", 
+        "answer": "A"
+      }, 
+      {
+        "A": "矮子功", 
+        "C": "毯子功", 
+        "B": "把子功", 
+        "D": "扇子功", 
+        "pinyin": "hjdhgzdmyhyyldjgycgtghy", 
+        "question": "汉剧《打花鼓》中的卖艺汉运用了裆劲功、圆场功、腿功，还有（ ）？", 
+        "sn": "11", 
+        "answer": "A"
+      }, 
+      {
+        "A": "裆劲功", 
+        "C": "圆场功", 
+        "B": "矮子功", 
+        "D": "扇子功", 
+        "pinyin": "hjdhgbyzmyhmyyyddgs", 
+        "question": "汉剧《打花鼓》表演中卖艺汉没有运用到的功是？", 
+        "sn": "12", 
+        "answer": "D"
+      }, 
+      {
+        "A": "唱工", 
+        "C": "念工", 
+        "B": "做工", 
+        "D": "打工", 
+        "pinyin": "hjwcsygzzhbydhd", 
+        "question": "汉剧五丑是一个注重（ ）和表演的行当。", 
+        "sn": "13", 
+        "answer": "B"
+      }, 
+      {
+        "A": "李罗克", 
+        "C": "李春森", 
+        "B": "陈伯华", 
+        "D": "吴天保", 
+        "pinyin": "ndcjdszyddhgbslddsplzhgcz", 
+        "question": "50年代，丑角大师（ ）主演的《打花鼓》被收录到电视片《留住汉宫春》中。", 
+        "sn": "14", 
+        "answer": "A"
+      }, 
+      {
+        "A": "二度梅", 
+        "C": "击鼓骂曹", 
+        "B": "打花鼓", 
+        "D": "打金枝", 
+        "pinyin": "ndcjdsllkzydbslddsplzhgcz", 
+        "question": "50年代，丑角大师李罗克主演的（ ）被收录到电视片《留住汉宫春》中。", 
+        "sn": "15", 
+        "answer": "B"
+      }, 
+      {
+        "A": "30年代", 
+        "C": "50年代", 
+        "B": "40年代", 
+        "D": "80年代", 
+        "pinyin": "ndcjdsllkzyddhgbslddsplzhgcz", 
+        "question": "（ ）年代，丑角大师李罗克主演的《打花鼓》被收录到电视片《留住汉宫春》中。", 
+        "sn": "16", 
+        "answer": "C"
+      }, 
+      {
+        "A": "一末", 
+        "C": "五丑", 
+        "B": "四旦", 
+        "D": "八贴", 
+        "pinyin": "hjdhgzygylgjs", 
+        "question": "汉剧《打花鼓》 中一共有两个（ ）角色。", 
+        "sn": "17", 
+        "answer": "C"
+      }, 
+      {
+        "A": "一个", 
+        "C": "三个", 
+        "B": "两个", 
+        "D": "四个", 
+        "pinyin": "hjdhgzygywcjs", 
+        "question": "汉剧《打花鼓》 中一共有（ ）五丑角色。", 
+        "sn": "18", 
+        "answer": "B"
+      }, 
+      {
+        "A": "二度梅", 
+        "C": "击鼓骂曹", 
+        "B": "打花鼓", 
+        "D": "打金枝", 
+        "pinyin": "llkhlybhdysjhblhzdbcwzlbh", 
+        "question": "李罗克和老一辈花旦艺术家花碧兰合作的（ ）被称为“珠联璧合”", 
+        "sn": "19", 
+        "answer": "B"
+      }, 
+      {
+        "A": "陈伯华", 
+        "C": "牡丹花", 
+        "B": "花碧兰", 
+        "D": "董瑶阶", 
+        "pinyin": "llkhlybhdysjhzddhgbcwzlbh", 
+        "question": "李罗克和老一辈花旦艺术家()合作的《打花鼓》被称为“珠联璧合”", 
+        "sn": "20", 
+        "answer": "B"
+      }, 
+      {
+        "A": "四旦", 
+        "C": "八贴", 
+        "B": "七小", 
+        "D": "九夫", 
+        "pinyin": "hjdhgzcxzdmyqsynghd", 
+        "question": "汉剧《打花鼓》 这出戏中的卖艺妻属于哪个行当？", 
+        "sn": "21", 
+        "answer": "C"
+      }, 
+      {
+        "A": "一末", 
+        "C": "三生", 
+        "B": "二净", 
+        "D": "五丑", 
+        "pinyin": "hjdhgzcxzdmyhsynghd", 
+        "question": "汉剧《打花鼓》 这出戏中的卖艺汉属于哪个行当？", 
+        "sn": "22", 
+        "answer": "D"
+      }, 
+      {
+        "A": "一末", 
+        "C": "三生", 
+        "B": "二净", 
+        "D": "五丑", 
+        "pinyin": "hjdhgzcxzdcgzsynghd", 
+        "question": "汉剧《打花鼓》 这出戏中的曹公子属于哪个行当？", 
+        "sn": "23", 
+        "answer": "D"
+      }, 
+      {
+        "A": "吴天保", 
+        "C": "李春森", 
+        "B": "董瑶阶", 
+        "D": "魏平原", 
+        "pinyin": "hjdhgzcpzdtbssscd", 
+        "question": "汉剧《打花鼓》中“踩盘子”的台步是谁首创的？", 
+        "sn": "24", 
+        "answer": "B"
+      }, 
+      {
+        "A": "碧兰", 
+        "C": "兰", 
+        "B": "华", 
+        "D": "华", 
+        "pinyin": "hhzycdhjdhgbcwzlbh", 
+        "question": "（ ）和（ ）合作演出的汉剧《打花鼓》被称为“珠联璧合”。", 
+        "sn": "25", 
+        "answer": "A"
+      }, 
+      {
+        "A": "水浒传", 
+        "C": "岳飞传", 
+        "B": "白蛇传", 
+        "D": "西游记", 
+        "pinyin": "hjdxcszdyzx", 
+        "question": "汉剧《盗仙草》是（ ）中的一折戏。", 
+        "sn": "26", 
+        "answer": "B"
+      }, 
+      {
+        "A": "白素贞", 
+        "C": "法海", 
+        "B": "小青", 
+        "D": "观世音", 
+        "pinyin": "hjdxcjdswljxxzsqwxsdqxcdgs", 
+        "question": "汉剧《盗仙草》讲的是（ ）为了救许仙，只身前往仙山盗取仙草的故事。", 
+        "sn": "27", 
+        "answer": "A"
+      }, 
+      {
+        "A": "文戏", 
+        "C": "唱功戏", 
+        "B": "武戏", 
+        "D": "靠把戏", 
+        "pinyin": "hjdxcsy", 
+        "question": "汉剧《盗仙草》 属于（ ）。", 
+        "sn": "28", 
+        "answer": "B"
+      }, 
+      {
+        "A": "说唱", 
+        "C": "身段", 
+        "B": "打斗", 
+        "D": "念白", 
+        "pinyin": "hjfwwxhwxwxywzwxyddwz", 
+        "question": "汉剧分为文戏和武戏，文戏以（ ）为主，武戏以打斗为主。", 
+        "sn": "29", 
+        "answer": "A"
+      }, 
+      {
+        "A": "说唱", 
+        "C": "身段", 
+        "B": "打斗", 
+        "D": "念白", 
+        "pinyin": "hjfwwxhwxwxyscwzwxywz", 
+        "question": "汉剧分为文戏和武戏，文戏以说唱为主，武戏以（ ）为主。", 
+        "sn": "30", 
+        "answer": "B"
+      }, 
+      {
+        "A": "说唱", 
+        "C": "身段", 
+        "B": "短打戏", 
+        "D": "念白", 
+        "pinyin": "hjwxybykyfwzkxhldl", 
+        "question": "汉剧武戏一般又可以分为扎靠戏和（ ）两大类。", 
+        "sn": "31", 
+        "answer": "B"
+      }, 
+      {
+        "A": "能", 
+        "C": "都可以", 
+        "B": "不能", 
+        "D": "无所谓", 
+        "pinyin": "hjcsxdtdsyyddqbqzkzrlrqdzdsxdbfdc", 
+        "question": "汉剧出手戏的特点是演员的刀枪兵器在空中扔来扔去，（ ）掉在地上，显得缤纷多彩。", 
+        "sn": "32", 
+        "answer": "B"
+      }, 
+      {
+        "A": "四旦", 
+        "C": "八贴", 
+        "B": "七小", 
+        "D": "九夫", 
+        "pinyin": "zhjdxczbszsysmhd", 
+        "question": "在汉剧《盗仙草》中白素贞属于什么行当？", 
+        "sn": "33", 
+        "answer": "B"
+      }, 
+      {
+        "A": "长枪", 
+        "C": "出手枪", 
+        "B": "短枪", 
+        "D": "花枪", 
+        "pinyin": "zhjdxczsjmydssmq", 
+        "question": "在汉剧《盗仙草》中神将们用的是什么枪？", 
+        "sn": "34", 
+        "answer": "C"
+      }, 
+      {
+        "A": "黄孝花鼓戏", 
+        "C": "天沔花鼓戏", 
+        "B": "东路花鼓戏", 
+        "D": "荆河戏", 
+        "pinyin": "cjdqssyybel", 
+        "question": "楚剧的前身是由（ ）演变而来", 
+        "sn": "35", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1911年", 
+        "C": "1945年", 
+        "B": "1926年", 
+        "D": "1949年", 
+        "pinyin": "cjzmsnbzsmmd", 
+        "question": "“楚剧”之名是（ ）年被正式命名的。", 
+        "sn": "36", 
+        "answer": "B"
+      }, 
+      {
+        "A": "2000年", 
+        "C": "2010年", 
+        "B": "2006年", 
+        "D": "2012年", 
+        "pinyin": "cjsnynrxgjdypfwzwhycd", 
+        "question": "楚剧是哪一年入选国家第一批非物质文化遗产的？", 
+        "sn": "37", 
+        "answer": "B"
+      }, 
+      {
+        "A": "一", 
+        "C": "三", 
+        "B": "二", 
+        "D": "五", 
+        "pinyin": "cjynrxgjdpfwzwhyc", 
+        "question": "楚剧于2006年入选国家第（ ）批非物质文化遗产。", 
+        "sn": "38", 
+        "answer": "A"
+      }, 
+      {
+        "A": "扇子", 
+        "C": "马鞭", 
+        "B": "手帕", 
+        "D": "刀枪", 
+        "pinyin": "cjhdbyzyywtsdj", 
+        "question": "楚剧花旦表演主要以（ ）为贴身道具。", 
+        "sn": "39", 
+        "answer": "B"
+      }, 
+      {
+        "A": "老年妇女", 
+        "C": "小家碧玉", 
+        "B": "泼辣妇女", 
+        "D": "中年妇女", 
+        "pinyin": "cjhdxzybxnyljs", 
+        "question": "楚剧花旦行主要表现哪一类角色？", 
+        "sn": "40", 
+        "answer": "C"
+      }, 
+      {
+        "A": "花旦行", 
+        "C": "青衣行", 
+        "B": "闺秀行", 
+        "D": "老旦行", 
+        "pinyin": "cjlcjdqzfjssmhd", 
+        "question": "楚剧《刘崇景打妻》中，凤姣是什么行当？", 
+        "sn": "41", 
+        "answer": "A"
+      }, 
+      {
+        "A": "刘崇景", 
+        "C": "柳树", 
+        "B": "凤姣", 
+        "D": "李凤姐", 
+        "pinyin": "xlnygbscjlcjdqzdrw", 
+        "question": "下列哪一个不是楚剧《刘崇景打妻》中的人物？", 
+        "sn": "42", 
+        "answer": "D"
+      }, 
+      {
+        "A": "黄陂、孝感", 
+        "C": "天门、沔阳", 
+        "B": "黄石、黄冈", 
+        "D": "孝感、鄂州", 
+        "pinyin": "cjsxcyhbhydddfhgx", 
+        "question": "楚剧是形成于湖北（ ）和（ ）一带的地方花鼓戏。", 
+        "sn": "43", 
+        "answer": "A"
+      }, 
+      {
+        "A": "小圆场", 
+        "C": "花旦步", 
+        "B": "十字步", 
+        "D": "踩盘子", 
+        "pinyin": "zcjlcjdqzhdyymyydxlnzbf", 
+        "question": "在楚剧《刘崇景打妻》中，花旦演员没有用到下列哪种步法？", 
+        "sn": "44", 
+        "answer": "D"
+      }, 
+      {
+        "A": "水袖", 
+        "C": "短袖", 
+        "B": "长袖", 
+        "D": "丝袖", 
+        "pinyin": "xqfzdxzqmjsdydbscjsm", 
+        "question": "戏曲服装的袖子前面，加上的一段白丝绸叫什么？", 
+        "sn": "45", 
+        "answer": "A"
+      }, 
+      {
+        "A": "丝绸", 
+        "C": "白布", 
+        "B": "麻布", 
+        "D": "纤维", 
+        "pinyin": "xqfzdsxssmclzd", 
+        "question": "戏曲服装的“水袖”是什么材料做的？", 
+        "sn": "46", 
+        "answer": "A"
+      }, 
+      {
+        "A": "长短", 
+        "C": "厚薄", 
+        "B": "粗细", 
+        "D": "轻重", 
+        "pinyin": "xqyysxdbyndzyysxdsmxg", 
+        "question": "戏曲演员“水袖”的表演难度主要与“水袖”的（ ）什么相关？", 
+        "sn": "47", 
+        "answer": "A"
+      }, 
+      {
+        "A": "闺秀", 
+        "C": "老旦", 
+        "B": "青衣", 
+        "D": "武旦", 
+        "pinyin": "cjszjfzhssycjzdnghd", 
+        "question": "楚剧《失子惊疯》中，胡氏属于楚剧中的哪个行当？", 
+        "sn": "48", 
+        "answer": "B"
+      }, 
+      {
+        "A": "闺秀", 
+        "C": "老旦", 
+        "B": "青衣", 
+        "D": "花旦", 
+        "pinyin": "cjszjfzyhsycjzdnghd", 
+        "question": "楚剧《失子惊疯》中，丫鬟属于楚剧中的哪个行当？", 
+        "sn": "49", 
+        "answer": "D"
+      }, 
+      {
+        "A": "云袖", 
+        "C": "车轮袖", 
+        "B": "冲天袖", 
+        "D": "抓袖", 
+        "pinyin": "zcjszjfzyysxbxrwgxszyy", 
+        "question": "在楚剧《失子惊疯》中，运用“水袖”表现人物高兴时主要用（ ）。", 
+        "sn": "50", 
+        "answer": "A"
+      }, 
+      {
+        "A": "云袖", 
+        "C": "车轮袖", 
+        "B": "冲天袖", 
+        "D": "抓袖", 
+        "pinyin": "zcjszjfzyysxbxrwfnszyy", 
+        "question": "在楚剧《失子惊疯》中，运用“水袖”表现人物愤怒时主要用（ ）。", 
+        "sn": "51", 
+        "answer": "B"
+      }, 
+      {
+        "A": "云袖", 
+        "C": "车轮袖", 
+        "B": "冲天袖", 
+        "D": "抓袖", 
+        "pinyin": "zcjszjfzyysxbxrwfdszyy", 
+        "question": "在楚剧《失子惊疯》中，运用“水袖”表现人物疯癫时主要用（ ）。", 
+        "sn": "52", 
+        "answer": "C"
+      }, 
+      {
+        "A": "武生", 
+        "C": "花脸", 
+        "B": "武丑", 
+        "D": "小生", 
+        "pinyin": "cjsckzdrwrthsysmhd", 
+        "question": "楚剧《三岔口》中的人物任堂惠属于什么行当？", 
+        "sn": "53", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武生", 
+        "C": "花脸", 
+        "B": "武丑", 
+        "D": "小生", 
+        "pinyin": "cjsckzdrwllhsysmhd", 
+        "question": "楚剧《三岔口》中的人物刘利华属于什么行当？", 
+        "sn": "54", 
+        "answer": "B"
+      }, 
+      {
+        "A": "武生", 
+        "C": "花脸", 
+        "B": "武丑", 
+        "D": "小生", 
+        "pinyin": "cjsckzdrwjzsysmhd", 
+        "question": "楚剧《三岔口》中的人物焦赞属于什么行当？", 
+        "sn": "55", 
+        "answer": "C"
+      }, 
+      {
+        "A": "单刀", 
+        "C": "双枪", 
+        "B": "双刀", 
+        "D": "花枪", 
+        "pinyin": "zcjsckzrthscdbqssm", 
+        "question": "在楚剧《三岔口》中，任堂惠所持的兵器是什么？", 
+        "sn": "56", 
+        "answer": "A"
+      }, 
+      {
+        "A": "两个", 
+        "C": "四个", 
+        "B": "三个", 
+        "D": "五股", 
+        "pinyin": "cjsckzyjgrw", 
+        "question": "楚剧《三岔口》中，有几个人物？", 
+        "sn": "57", 
+        "answer": "B"
+      }, 
+      {
+        "A": "文戏", 
+        "C": "公堂戏", 
+        "B": "武戏", 
+        "D": "连台本戏", 
+        "pinyin": "cjscksynylx", 
+        "question": "楚剧《三岔口》属于哪一类戏？", 
+        "sn": "58", 
+        "answer": "B"
+      }, 
+      {
+        "A": "白天", 
+        "C": "早上", 
+        "B": "深夜", 
+        "D": "下午", 
+        "pinyin": "cjsckzdgsfszsmsj", 
+        "question": "楚剧《三岔口》中的故事发生在什么时间？", 
+        "sn": "59", 
+        "answer": "B"
+      }, 
+      {
+        "A": "50多年", 
+        "C": "160多年", 
+        "B": "100多年", 
+        "D": "200多年", 
+        "pinyin": "whztmodlsjjydsn", 
+        "question": "武汉杖头木偶的历史距今有多少年？", 
+        "sn": "60", 
+        "answer": "C"
+      }, 
+      {
+        "A": "两", 
+        "C": "四", 
+        "B": "三", 
+        "D": "五", 
+        "pinyin": "zgmokyfwdzl", 
+        "question": "中国木偶可以分为（ ）大种类", 
+        "sn": "61", 
+        "answer": "C"
+      }, 
+      {
+        "A": "傀儡戏", 
+        "C": "秧歌", 
+        "B": "花鼓戏", 
+        "D": "歌舞小戏", 
+        "pinyin": "whztmoyyjcmj", 
+        "question": "武汉杖头木偶，源于荆楚民间（ ）。", 
+        "sn": "62", 
+        "answer": "A"
+      }, 
+      {
+        "A": "市级", 
+        "C": "国家级", 
+        "B": "省级", 
+        "D": "县级", 
+        "pinyin": "nwhztmocgrxfyxm", 
+        "question": "2016年，武汉杖头木偶成功入选（ ）非遗项目。", 
+        "sn": "63", 
+        "answer": "B"
+      }, 
+      {
+        "A": "木杖", 
+        "C": "机关", 
+        "B": "丝线", 
+        "D": "铁枝", 
+        "pinyin": "ztmoxsyczmodzlwcdxjbyxs", 
+        "question": "杖头木偶戏，是以（ ）操作木偶动作来完成的戏剧表演形式。", 
+        "sn": "64", 
+        "answer": "A"
+      }, 
+      {
+        "A": "杖头木偶", 
+        "C": "皮影戏", 
+        "B": "悬丝傀儡", 
+        "D": "掌中木偶", 
+        "pinyin": "zgmobktxmobdmotzmoh", 
+        "question": "中国木偶包括提线木偶、布袋木偶、铁枝木偶和（ ）。", 
+        "sn": "65", 
+        "answer": "A"
+      }, 
+      {
+        "A": "艺术团", 
+        "C": "汉口木偶剧团", 
+        "B": "团", 
+        "D": "武汉木偶剧院", 
+        "pinyin": "gywhssctmodjlhngmw", 
+        "question": "国营武汉市说唱团木偶队建立后，1978年改名为（ ）。", 
+        "sn": "66", 
+        "answer": "B"
+      }, 
+      {
+        "A": "夏菊花", 
+        "C": "夏雨田", 
+        "B": "陈伯华", 
+        "D": "张明智", 
+        "pinyin": "", 
+        "question": "。", 
+        "sn": "67", 
+        "answer": "A"
+      }, 
+      {
+        "A": "两", 
+        "C": "四", 
+        "B": "三", 
+        "D": "五", 
+        "pinyin": "zjybfwdl", 
+        "question": "杂技一般分为（ ）大类。", 
+        "sn": "68", 
+        "answer": "D"
+      }, 
+      {
+        "A": "10", 
+        "C": "13", 
+        "B": "12", 
+        "D": "15", 
+        "pinyin": "whgjzjysjzjjbldsj", 
+        "question": "武汉国际杂技艺术节至今举办了多少届？", 
+        "sn": "69", 
+        "answer": "C"
+      }, 
+      {
+        "A": "夏菊花", 
+        "C": "夏雨田", 
+        "B": "陈伯华", 
+        "D": "张明智", 
+        "pinyin": "zgzjddwhhss", 
+        "question": "中国杂技的“顶碗皇后”是谁？", 
+        "sn": "70", 
+        "answer": "A"
+      }, 
+      {
+        "A": "空中杂技", 
+        "C": "魔术戏法", 
+        "B": "地面杂技", 
+        "D": "滑稽表演", 
+        "pinyin": "zjkzfrsysmlxdzj", 
+        "question": "杂技《空中飞人》属于什么类型的杂技？", 
+        "sn": "71", 
+        "answer": "A"
+      }, 
+      {
+        "A": "空中杂技", 
+        "C": "马戏驯兽", 
+        "B": "地面杂技", 
+        "D": "滑稽表演", 
+        "pinyin": "zjzddwbysysmlxdzj", 
+        "question": "杂技中的动物表演属于什么类型的杂技？", 
+        "sn": "72", 
+        "answer": "C"
+      }, 
+      {
+        "A": "参军戏", 
+        "C": "百戏", 
+        "B": "傀儡戏", 
+        "D": "社戏", 
+        "pinyin": "zjzhdcwsm", 
+        "question": "杂技在汉代称为什么？", 
+        "sn": "73", 
+        "answer": "C"
+      }, 
+      {
+        "A": "空中杂技", 
+        "C": "魔术戏法", 
+        "B": "地面杂技", 
+        "D": "滑稽表演", 
+        "pinyin": "zjzddlcbysysmlxdzj", 
+        "question": "杂技中的独轮车表演属于什么类型的杂技？", 
+        "sn": "74", 
+        "answer": "B"
+      }, 
+      {
+        "A": "空中杂技", 
+        "C": "魔术戏法", 
+        "B": "地面杂技", 
+        "D": "滑稽表演", 
+        "pinyin": "zjzdxcbysysmlxdzj", 
+        "question": "杂技中的小丑表演属于什么类型的杂技？", 
+        "sn": "75", 
+        "answer": "D"
+      }, 
+      {
+        "A": "2000", 
+        "C": "2014", 
+        "B": "2008", 
+        "D": "2018", 
+        "pinyin": "whzjnblrgjjfwzwhycml", 
+        "question": "武汉杂技（ ）年被列入国家级非物质文化遗产名录。", 
+        "sn": "76", 
+        "answer": "C"
+      }, 
+      {
+        "A": "一", 
+        "C": "三", 
+        "B": "二", 
+        "D": "四", 
+        "pinyin": "whzjnblrdpgjjfwzwhycml", 
+        "question": "武汉杂技2014年被列入第（ ）批国家级非物质文化遗产名录。", 
+        "sn": "77", 
+        "answer": "D"
+      }, 
+      {
+        "A": "1949", 
+        "C": "1960", 
+        "B": "1950", 
+        "D": "1978", 
+        "pinyin": "zjycsnyzelzldmd", 
+        "question": "“杂技”一词，是（ ）年由周恩来总理定名的。", 
+        "sn": "78", 
+        "answer": "B"
+      }, 
+      {
+        "A": "中国杂技团", 
+        "C": "上海杂技团", 
+        "B": "武汉杂技团", 
+        "D": "北京杂技团", 
+        "pinyin": "ndzhzjtngmw", 
+        "question": "1950年的中华杂技团，1953年更名为（ ）。", 
+        "sn": "79", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1949", 
+        "C": "1960", 
+        "B": "1950", 
+        "D": "1978", 
+        "pinyin": "whzjtclyn", 
+        "question": "武汉杂技团成立于（ ）年。", 
+        "sn": "80", 
+        "answer": "B"
+      }, 
+      {
+        "A": "顶碗", 
+        "C": "蹦床蹬人", 
+        "B": "飞车顶竿", 
+        "D": "椅子造型", 
+        "pinyin": "xljmsyxjhdbxzpds", 
+        "question": "下列节目属于夏菊花代表性作品的是？", 
+        "sn": "81", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1980", 
+        "C": "1992", 
+        "B": "1990", 
+        "D": "1998", 
+        "pinyin": "whgjzjysjcbyn", 
+        "question": "武汉国际杂技艺术节创办于（ ）年。", 
+        "sn": "82", 
+        "answer": "C"
+      }, 
+      {
+        "A": "双年", 
+        "C": "四年", 
+        "B": "单年", 
+        "D": "五年", 
+        "pinyin": "whgjzjysjfnjb", 
+        "question": "武汉国际杂技艺术节逢（ ）年举办。", 
+        "sn": "83", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武汉杂技厅", 
+        "C": "琴台大剧院", 
+        "B": "武汉剧院", 
+        "D": "汉口江滩", 
+        "pinyin": "whgjzjysjdscbsybdznljx", 
+        "question": "武汉国际杂技艺术节的赛场比赛一般都在哪里举行？", 
+        "sn": "84", 
+        "answer": "A"
+      }, 
+      {
+        "A": "第一批", 
+        "C": "第三批", 
+        "B": "第二批", 
+        "D": "第四批", 
+        "pinyin": "hbpsjgwypzlrgjjfwzwhycml", 
+        "question": "湖北评书经国务院批准列入（ ）国家级非物质文化遗产名录。", 
+        "sn": "85", 
+        "answer": "B"
+      }, 
+      {
+        "A": "醒木", 
+        "C": "手帕", 
+        "B": "扇子", 
+        "D": "胡琴", 
+        "pinyin": "hbpscyddjbbkxlnyx", 
+        "question": "湖北评书常用的道具不包括下列哪一项？", 
+        "sn": "86", 
+        "answer": "C"
+      }, 
+      {
+        "A": "警醒观众", 
+        "C": "吓唬听众", 
+        "B": "制止喧哗", 
+        "D": "表示结束", 
+        "pinyin": "psbysyddjxmdjbgnssm", 
+        "question": "评书表演所用的道具“醒木”的基本功能是什么", 
+        "sn": "87", 
+        "answer": "A"
+      }, 
+      {
+        "A": "木鱼", 
+        "C": "惊堂木", 
+        "B": "木棒", 
+        "D": "鼓板", 
+        "pinyin": "psddjxmybgzscw", 
+        "question": "评书的道具“醒木”，又被观众俗称为（ ）。", 
+        "sn": "88", 
+        "answer": "C"
+      }, 
+      {
+        "A": "四剑客", 
+        "C": "四大家", 
+        "B": "四杆旗", 
+        "D": "四大王", 
+        "pinyin": "hbpszqzmmjyrtxswdplwzxxfbcwps", 
+        "question": "湖北评书早期著名民间艺人童雪松、王丹普、刘维舟、夏秀峰被称为评书（ ）。", 
+        "sn": "89", 
+        "answer": "B"
+      }, 
+      {
+        "A": "双枪老太婆", 
+        "C": "彩电风波", 
+        "B": "挂牌成亲", 
+        "D": "天外姻缘", 
+        "pinyin": "hbpsdshzhdcmzs", 
+        "question": "湖北评书大师何祚欢的成名作是（ ）。", 
+        "sn": "90", 
+        "answer": "A"
+      }, 
+      {
+        "A": "300", 
+        "C": "500", 
+        "B": "400", 
+        "D": "700", 
+        "pinyin": "hbxqjjyydndls", 
+        "question": "湖北小曲距今已有（ ）多年的历史。", 
+        "sn": "91", 
+        "answer": "A"
+      }, 
+      {
+        "A": "50多个", 
+        "C": "150多个", 
+        "B": "100多个", 
+        "D": "200多个", 
+        "pinyin": "hbxqydsqp", 
+        "question": "湖北小曲有多少曲牌？", 
+        "sn": "92", 
+        "answer": "B"
+      }, 
+      {
+        "A": "汉滩小曲", 
+        "C": "莲花落", 
+        "B": "时调小曲", 
+        "D": "黄梅戏", 
+        "pinyin": "hbxqzyfllbkhtmdzq", 
+        "question": "湖北小曲主要分两类，包括（ ）和天沔碟子曲。", 
+        "sn": "93", 
+        "answer": "A"
+      }, 
+      {
+        "A": "一人多角", 
+        "C": "一人一角", 
+        "B": "多人一角", 
+        "D": "无角色扮演", 
+        "pinyin": "hbxqdbytdssm", 
+        "question": "湖北小曲的表演特点是什么？", 
+        "sn": "94", 
+        "answer": "A"
+      }, 
+      {
+        "A": "说", 
+        "C": "念", 
+        "B": "唱", 
+        "D": "弹奏", 
+        "pinyin": "hbxqywzscxj", 
+        "question": "湖北小曲以（ ）为主，说唱相间，", 
+        "sn": "95", 
+        "answer": "B"
+      }, 
+      {
+        "A": "一", 
+        "C": "三", 
+        "B": "二", 
+        "D": "四", 
+        "pinyin": "xytzcdhbxqnwdykchqgqyczdj", 
+        "question": "夏雨田作词的湖北小曲《难忘的一课》曾获全国曲艺创作（ ）等奖。", 
+        "sn": "96", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉滩小曲", 
+        "C": "莲花落", 
+        "B": "碟子小曲", 
+        "D": "黄梅戏", 
+        "pinyin": "hbxqzdtmxqyc", 
+        "question": "湖北小曲中的天沔小曲，又称（ ）。", 
+        "sn": "97", 
+        "answer": "B"
+      }, 
+      {
+        "A": "武汉话", 
+        "C": "沔阳话", 
+        "B": "天门话", 
+        "D": "宜昌话", 
+        "pinyin": "hbxqmycyyxnzfy", 
+        "question": "湖北小曲没有采用以下哪种方言？", 
+        "sn": "98", 
+        "answer": "D"
+      }, 
+      {
+        "A": "莲花落", 
+        "C": "顺口溜", 
+        "B": "数板", 
+        "D": "绕口令", 
+        "pinyin": "hbxqzdjsm", 
+        "question": "湖北小曲中的“rap”叫什么？", 
+        "sn": "99", 
+        "answer": "B"
+      }, 
+      {
+        "A": "说唱", 
+        "C": "道白", 
+        "B": "歌舞", 
+        "D": "舞蹈", 
+        "pinyin": "qysymysbtdyyxcbtdysfg", 
+        "question": "曲艺是一门（ ）艺术，不同的语言形成不同的艺术风格。", 
+        "sn": "100", 
+        "answer": "A"
+      }, 
+      {
+        "A": "抢伞", 
+        "C": "跳粉墙", 
+        "B": "秋江", 
+        "D": "难忘的一课", 
+        "pinyin": "xytzcdhbxqchqgqyczydj", 
+        "question": "夏雨田作词的湖北小曲（ ）曾获全国曲艺创作一等奖。", 
+        "sn": "101", 
+        "answer": "D"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "楚剧", 
+        "B": "湖北小曲", 
+        "D": "荆州花鼓", 
+        "pinyin": "hbddfqzzyyhbdghbdqhbygh", 
+        "question": "湖北的地方曲种，主要有湖北大鼓、 湖北道情、湖北渔鼓和（ ）。", 
+        "sn": "102", 
+        "answer": "B"
+      }, 
+      {
+        "A": "陈派", 
+        "C": "程派", 
+        "B": "梅派", 
+        "D": "吴派", 
+        "pinyin": "hjdscbhcldyslpjsm", 
+        "question": "汉剧大师陈伯华创立的艺术流派叫什么？", 
+        "sn": "103", 
+        "answer": "A"
+      }, 
+      {
+        "A": "余派", 
+        "C": "谭派", 
+        "B": "张派", 
+        "D": "吴派", 
+        "pinyin": "hjbyysjwtbcldyslpjsm", 
+        "question": "汉剧表演艺术家吴天保创立的艺术流派叫什么？", 
+        "sn": "104", 
+        "answer": "D"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "京剧", 
+        "B": "楚剧", 
+        "D": "荆州花鼓戏", 
+        "pinyin": "zzwcphxjhszwcpsznygjz", 
+        "question": "“尊重吴陈派，宏宣江汉声。”中“吴陈派”是指哪一个剧种？", 
+        "sn": "105", 
+        "answer": "A"
+      }, 
+      {
+        "A": "流民图", 
+        "C": "玉堂春", 
+        "B": "白罗衫", 
+        "D": "柜中缘", 
+        "pinyin": "hjdhgymsm", 
+        "question": "汉剧《打花鼓》又名什么？", 
+        "sn": "106", 
+        "answer": "A"
+      }, 
+      {
+        "A": "江山图", 
+        "C": "八义图", 
+        "B": "花猫扑蝶图", 
+        "D": "兴汉图", 
+        "pinyin": "hjdhgjldyrcybjzwdgntlw", 
+        "question": "汉剧《打花鼓》经历代艺人传演，把剧种舞蹈归纳提炼为（ ）。", 
+        "sn": "107", 
+        "answer": "B"
+      }, 
+      {
+        "A": "本嗓", 
+        "C": "小嗓", 
+        "B": "边嗓", 
+        "D": "本嗓边嗓结合C", 
+        "pinyin": "hjdxysms", 
+        "question": "汉剧旦行用什么嗓？", 
+        "sn": "108", 
+        "answer": "C"
+      }, 
+      {
+        "A": "一末", 
+        "C": "三生", 
+        "B": "二净", 
+        "D": "四旦", 
+        "pinyin": "hjhdzyybylndwzxggxsdzmrwdsnyx", 
+        "question": "汉剧行当中，用以扮演老年帝王、宰相、高官、贤士等正面人物的是哪一行？", 
+        "sn": "109", 
+        "answer": "A"
+      }, 
+      {
+        "A": "四旦", 
+        "C": "八贴", 
+        "B": "五丑", 
+        "D": "九夫", 
+        "pinyin": "hjhdzyybylnfndsnyx", 
+        "question": "汉剧行当中，用以扮演老年妇女的是哪一行？", 
+        "sn": "110", 
+        "answer": "D"
+      }, 
+      {
+        "A": "四旦", 
+        "C": "八贴", 
+        "B": "五丑", 
+        "D": "九夫", 
+        "pinyin": "hjhdzyybydjgxznfnhhwfznjfdsnyx", 
+        "question": "汉剧行当中，用以扮演大家闺秀、中年妇女、皇后王妃、贞女节妇的是哪一行？", 
+        "sn": "111", 
+        "answer": "A"
+      }, 
+      {
+        "A": "种", 
+        "C": "汉口竹枝词", 
+        "B": "英雄志", 
+        "D": "汉剧志", 
+        "pinyin": "zjqmjszhjxclgfdsdx", 
+        "question": "至嘉庆末，据（ ）所载，汉剧形成了规范的十大行。", 
+        "sn": "112", 
+        "answer": "C"
+      }, 
+      {
+        "A": "楚调", 
+        "C": "楚曲", 
+        "B": "楚腔", 
+        "D": "花鼓戏", 
+        "pinyin": "xlnyxbshjdqs", 
+        "question": "下列哪一项不是汉剧的前身？", 
+        "sn": "113", 
+        "answer": "D"
+      }, 
+      {
+        "A": "湖南", 
+        "C": "河南", 
+        "B": "安徽", 
+        "D": "湖北", 
+        "pinyin": "hjswgglddfxqjztyys", 
+        "question": "汉剧是我国古老的地方戏曲剧种，它源于（ ）省。", 
+        "sn": "114", 
+        "answer": "D"
+      }, 
+      {
+        "A": "汉河派", 
+        "C": "西路花鼓", 
+        "B": "东路花鼓", 
+        "D": "南剧", 
+        "pinyin": "hjzmcfzgczxhxclsdhpclxhpjhpfhphy", 
+        "question": "汉剧在漫长发展过程中，先后形成了四大河派，除了襄河派、荆河派、府河派，还有（ ）。", 
+        "sn": "115", 
+        "answer": "A"
+      }, 
+      {
+        "A": "襄河派", 
+        "C": "西路花鼓", 
+        "B": "东路花鼓", 
+        "D": "南剧", 
+        "pinyin": "hjzmcfzgczxhxclsdhpclhhpjhpfhphy", 
+        "question": "汉剧在漫长发展过程中，先后形成了四大河派，除了汉河派、荆河派、府河派，还有（ ）。", 
+        "sn": "116", 
+        "answer": "A"
+      }, 
+      {
+        "A": "荆河派", 
+        "C": "西路花鼓", 
+        "B": "东路花鼓", 
+        "D": "南剧", 
+        "pinyin": "hjzmcfzgczxhxclsdhpclxhphhpfhphy", 
+        "question": "汉剧在漫长发展过程中，先后形成了四大河派，除了襄河派、汉河派、府河派，还有（ ）。", 
+        "sn": "117", 
+        "answer": "A"
+      }, 
+      {
+        "A": "府河派", 
+        "C": "西路花鼓", 
+        "B": "东路花鼓", 
+        "D": "南剧", 
+        "pinyin": "hjzmcfzgczxhxclsdhpclxhpjhphhphy", 
+        "question": "汉剧在漫长发展过程中，先后形成了四大河派，除了襄河派、荆河派、汉河派，还有（ ）。", 
+        "sn": "118", 
+        "answer": "A"
+      }, 
+      {
+        "A": "昆曲", 
+        "C": "汉剧", 
+        "B": "京剧", 
+        "D": "楚剧", 
+        "pinyin": "zzgbcwgjdsngjz", 
+        "question": "在中国被称为国剧的是哪个剧种？", 
+        "sn": "119", 
+        "answer": "B"
+      }, 
+      {
+        "A": "宦门子弟", 
+        "C": "桃李", 
+        "B": "栋梁", 
+        "D": "梨园子弟", 
+        "pinyin": "rmjcbxqyyczwsm", 
+        "question": "人们经常把戏曲演员称之为什么？", 
+        "sn": "120", 
+        "answer": "D"
+      }, 
+      {
+        "A": "论语", 
+        "C": "诗经", 
+        "B": "汉书", 
+        "D": "史记", 
+        "pinyin": "ymygdgscznybzz", 
+        "question": "“优孟衣冠”的故事出自哪一部著作？", 
+        "sn": "121", 
+        "answer": "D"
+      }, 
+      {
+        "A": "秦国", 
+        "C": "魏国", 
+        "B": "韩国", 
+        "D": "楚国", 
+        "pinyin": "ymyggsjdscqsqgyrymdgs", 
+        "question": "“优孟衣冠”故事讲的是春秋时期（ ）国艺人优孟的故事。", 
+        "sn": "122", 
+        "answer": "D"
+      }, 
+      {
+        "A": "施耐庵", 
+        "C": "吴承恩", 
+        "B": "关汉卿", 
+        "D": "孔尚任", 
+        "pinyin": "yqsdjzddsbpmzyzgzh", 
+        "question": "元曲四大家，指的的是白朴、马致远、郑光祖和（ ）。", 
+        "sn": "123", 
+        "answer": "B"
+      }, 
+      {
+        "A": "英国", 
+        "C": "美国", 
+        "B": "德国", 
+        "D": "日本", 
+        "pinyin": "ncjjdsmlfsljtqyc", 
+        "question": "1930年初，京剧大师梅兰芳率领剧团去（ ）演出。", 
+        "sn": "124", 
+        "answer": "C"
+      }, 
+      {
+        "A": "综合性", 
+        "C": "程式性", 
+        "B": "虚拟性", 
+        "D": "写实性", 
+        "pinyin": "xqysdxztdbbkxlnyx", 
+        "question": "戏曲艺术的显著特点不包括下列哪一项？", 
+        "sn": "125", 
+        "answer": "D"
+      }, 
+      {
+        "A": "程式性", 
+        "C": "传奇性", 
+        "B": "真实性", 
+        "D": "现代性", 
+        "pinyin": "xqysysdxztdbkzhxxnxh", 
+        "question": "戏曲艺术有三大显著特点，包括综合性、虚拟性和（ ）", 
+        "sn": "126", 
+        "answer": "A"
+      }, 
+      {
+        "A": "综合性", 
+        "C": "传奇性", 
+        "B": "真实性", 
+        "D": "现代性", 
+        "pinyin": "xqysysdxztdbkcsxxnxh", 
+        "question": "戏曲艺术有三大显著特点，包括程式性、虚拟性和（ ）", 
+        "sn": "127", 
+        "answer": "A"
+      }, 
+      {
+        "A": "程式性", 
+        "C": "传奇性", 
+        "B": "真实性", 
+        "D": "现代性", 
+        "pinyin": "xqysysdxztdbkzhxxnxh", 
+        "question": "戏曲艺术有三大显著特点，包括综合性、虚拟性和（ ）", 
+        "sn": "128", 
+        "answer": "A"
+      }, 
+      {
+        "A": "桃花扇", 
+        "C": "杨家将", 
+        "B": "西厢记", 
+        "D": "千金记", 
+        "pinyin": "qbsxqdcshdzymdcqzpzdyzqbedm", 
+        "question": "“起霸”是戏曲的程式化动作，因明代传奇作品（ ）中的一折《起霸》而得名。", 
+        "sn": "129", 
+        "answer": "D"
+      }, 
+      {
+        "A": "皇帝", 
+        "C": "皇后、妃子等", 
+        "B": "将军", 
+        "D": "士兵、杂役等", 
+        "pinyin": "xqbyzdltybylbysmrw", 
+        "question": "戏曲表演中的“龙套”一般用来扮演什么人物？", 
+        "sn": "130", 
+        "answer": "D"
+      }, 
+      {
+        "A": "舞", 
+        "C": "打", 
+        "B": "歌", 
+        "D": "摔", 
+        "pinyin": "xqbydsxjbgbkcnzh", 
+        "question": "戏曲表演的四项基本功，包括唱、念、做和（ ）", 
+        "sn": "131", 
+        "answer": "C"
+      }, 
+      {
+        "A": "歌唱", 
+        "C": "数干板", 
+        "B": "念白", 
+        "D": "旁白", 
+        "pinyin": "xqzrwddbhdhybczwsm", 
+        "question": "戏曲中人物的独白或对话一般称之为什么？", 
+        "sn": "132", 
+        "answer": "B"
+      }, 
+      {
+        "A": "水袖功", 
+        "C": "毯子功", 
+        "B": "把子功", 
+        "D": "翎子功", 
+        "pinyin": "xqyyysxzcdbyjyybjsm", 
+        "question": "戏曲演员用水袖做出的表演技艺一般叫什么？", 
+        "sn": "133", 
+        "answer": "A"
+      }, 
+      {
+        "A": "胡子", 
+        "C": "翎子", 
+        "B": "髯口", 
+        "D": "水袖", 
+        "pinyin": "xqyyddjhxtcwsm", 
+        "question": "戏曲演员戴的假胡须统称为什么？", 
+        "sn": "134", 
+        "answer": "B"
+      }, 
+      {
+        "A": "水袖功", 
+        "C": "毯子功", 
+        "B": "把子功", 
+        "D": "翎子功", 
+        "pinyin": "xqyysylzdwdsdcwsm", 
+        "question": "戏曲演员使用翎子的舞蹈身段称为什么？", 
+        "sn": "135", 
+        "answer": "D"
+      }, 
+      {
+        "A": "水袖功", 
+        "C": "甩发功", 
+        "B": "把子功", 
+        "D": "翎子功", 
+        "pinyin": "xqyywdtdszcfdbyjqybcwsm", 
+        "question": "戏曲演员舞动头顶所扎长发的表演技巧，一般称为什么？", 
+        "sn": "136", 
+        "answer": "C"
+      }, 
+      {
+        "A": "水袖功", 
+        "C": "毯子功", 
+        "B": "把子功", 
+        "D": "翎子功", 
+        "pinyin": "xqyydwddzybfwllysbzges", 
+        "question": "戏曲演员的武打动作一般分为两类，一是把子功，二是（ ）。", 
+        "sn": "137", 
+        "answer": "C"
+      }, 
+      {
+        "A": "水袖功", 
+        "C": "甩发功", 
+        "B": "把子功", 
+        "D": "翎子功", 
+        "pinyin": "xqyydwddzybfwllystzges", 
+        "question": "戏曲演员的武打动作一般分为两类，一是毯子功，二是（ ）。", 
+        "sn": "138", 
+        "answer": "B"
+      }, 
+      {
+        "A": "1998", 
+        "C": "2010", 
+        "B": "2000", 
+        "D": "2019", 
+        "pinyin": "njjblhgkjwzzlrsjfwzwhycml", 
+        "question": "（ ）年，京剧被联合国科教文组织列入世界非物质文化遗产名录。", 
+        "sn": "139", 
+        "answer": "C"
+      }, 
+      {
+        "A": "文组织", 
+        "C": "美国", 
+        "B": "中国", 
+        "D": "英国", 
+        "pinyin": "njjblrsjfwzwhycml", 
+        "question": "2010年，京剧被（ ）列入世界非物质文化遗产名录。", 
+        "sn": "140", 
+        "answer": "A"
+      }, 
+      {
+        "A": "湖北越调", 
+        "C": "楚剧", 
+        "B": "荆州花鼓", 
+        "D": "京剧", 
+        "pinyin": "xlxqjznygblrlsjfwzwhycml", 
+        "question": "下列戏曲剧种哪一个被列入了世界非物质文化遗产名录？", 
+        "sn": "141", 
+        "answer": "D"
+      }, 
+      {
+        "A": "龙套", 
+        "C": "歌队", 
+        "B": "场面", 
+        "D": "伴唱", 
+        "pinyin": "xqycsdbzybcwsm", 
+        "question": "戏曲演出时的伴奏一般称为什么？", 
+        "sn": "142", 
+        "answer": "B"
+      }, 
+      {
+        "A": "武场", 
+        "C": "下场", 
+        "B": "上场", 
+        "D": "圆场", 
+        "pinyin": "xqdcmybylzycsdbzcmkyfwldljwch", 
+        "question": "戏曲的“场面”一般用来指演出时的伴奏，场面可以分为两大类：即文场和（ ）。", 
+        "sn": "143", 
+        "answer": "A"
+      }, 
+      {
+        "A": "沈云陔", 
+        "C": "张一平", 
+        "B": "陈伯华", 
+        "D": "夏青玲", 
+        "pinyin": "xlnywysmjscjxcddjr", 
+        "question": "下列哪一位艺术名家是楚剧形成的奠基人？", 
+        "sn": "144", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "东路花鼓", 
+        "B": "楚剧", 
+        "D": "黄梅戏", 
+        "pinyin": "cjysyjhynclzzwyjys", 
+        "question": "楚剧艺术研究会于1979年成立，宗旨为研究（ ）艺术。", 
+        "sn": "145", 
+        "answer": "B"
+      }, 
+      {
+        "A": "对子戏", 
+        "C": "本戏", 
+        "B": "单边戏", 
+        "D": "干饭戏", 
+        "pinyin": "hxhgxzqyygjsbyyzqddddjmcwsmx", 
+        "question": "黄孝花鼓戏早期用一个角色并以一支腔调到底的剧目，称为什么戏？", 
+        "sn": "146", 
+        "answer": "B"
+      }, 
+      {
+        "A": "对子戏", 
+        "C": "本戏", 
+        "B": "单边戏", 
+        "D": "干饭戏", 
+        "pinyin": "cjjmzzjcsyscsmx", 
+        "question": "楚剧剧目中最经常上演，俗称什么戏？", 
+        "sn": "147", 
+        "answer": "D"
+      }, 
+      {
+        "A": "对子戏", 
+        "C": "幕表戏", 
+        "B": "单边戏", 
+        "D": "干饭戏", 
+        "pinyin": "cjzjyfcgsgghccrwmyjbtcyyykqjjxbcdxscsmx", 
+        "question": "楚剧中仅有分场故事梗概和出场人物，没有剧本台词，演员依靠情节即兴编词的戏，俗称什么戏？", 
+        "sn": "148", 
+        "answer": "C"
+      }, 
+      {
+        "A": "对子戏", 
+        "C": "幕表戏", 
+        "B": "打炮戏", 
+        "D": "干饭戏", 
+        "pinyin": "xbscsydjmjsmx", 
+        "question": "戏班首场上演的剧目叫什么戏？", 
+        "sn": "149", 
+        "answer": "B"
+      }, 
+      {
+        "A": "关公", 
+        "C": "老郎菩萨", 
+        "B": "唐明皇", 
+        "D": "汤显祖", 
+        "pinyin": "cjgbsjywzs", 
+        "question": "楚剧各班社均以（ ）为祖师。", 
+        "sn": "150", 
+        "answer": "C"
+      }, 
+      {
+        "A": "管乐", 
+        "C": "打击乐", 
+        "B": "弦乐", 
+        "D": "旋律", 
+        "pinyin": "xqcmzdwcybzxqyddbf", 
+        "question": "戏曲场面中的“文场”一般指戏曲乐队的（ ）部分。", 
+        "sn": "151", 
+        "answer": "B"
+      }, 
+      {
+        "A": "管乐", 
+        "C": "打击乐", 
+        "B": "弦乐", 
+        "D": "旋律", 
+        "pinyin": "xqcmzdwcybzxqyddbf", 
+        "question": "戏曲场面中的“武场”一般指戏曲乐队的（ ）部分。", 
+        "sn": "152", 
+        "answer": "C"
+      }, 
+      {
+        "A": "唢呐", 
+        "C": "钢琴", 
+        "B": "胡琴", 
+        "D": "笛子", 
+        "pinyin": "jjdwcyzwzyyq", 
+        "question": "京剧的文场以（ ）作为主要乐器。", 
+        "sn": "153", 
+        "answer": "B"
+      }, 
+      {
+        "A": "鼓板", 
+        "C": "钢琴", 
+        "B": "胡琴", 
+        "D": "笛子", 
+        "pinyin": "jjdwcyzwzyyq", 
+        "question": "京剧的武场以（ ）作为主要乐器。", 
+        "sn": "154", 
+        "answer": "A"
+      }, 
+      {
+        "A": "小调", 
+        "C": "板式变化体", 
+        "B": "民歌", 
+        "D": "曲牌连套体", 
+        "pinyin": "jjdcqsynyzlx", 
+        "question": "京剧的唱腔属于哪一种类型？", 
+        "sn": "155", 
+        "answer": "C"
+      }, 
+      {
+        "A": "高腔", 
+        "C": "小调", 
+        "B": "二黄", 
+        "D": "曲牌", 
+        "pinyin": "jjcqdbszybkxph", 
+        "question": "京剧唱腔的板式主要包括西皮和（ ）。", 
+        "sn": "156", 
+        "answer": "B"
+      }, 
+      {
+        "A": "末", 
+        "C": "丑", 
+        "B": "夫", 
+        "D": "外", 
+        "pinyin": "jjysfzzjhdzyfwsdlzyssdjh", 
+        "question": "京剧艺术发展至今，行当主要分为四大类，主要是生、旦、净和（ ）。", 
+        "sn": "157", 
+        "answer": "C"
+      }, 
+      {
+        "A": "生", 
+        "C": "末", 
+        "B": "夫", 
+        "D": "外", 
+        "pinyin": "jjysfzzjhdzyfwsdlzysdjch", 
+        "question": "京剧艺术发展至今，行当主要分为四大类，主要是旦、净、丑和（ ）。", 
+        "sn": "158", 
+        "answer": "A"
+      }, 
+      {
+        "A": "贴", 
+        "C": "夫", 
+        "B": "旦", 
+        "D": "外", 
+        "pinyin": "jjysfzzjhdzyfwsdlzyssjch", 
+        "question": "京剧艺术发展至今，行当主要分为四大类，主要是生、净、丑和（ ）。", 
+        "sn": "159", 
+        "answer": "B"
+      }, 
+      {
+        "A": "末", 
+        "C": "净", 
+        "B": "夫", 
+        "D": "外", 
+        "pinyin": "jjysfzzjhdzyfwsdlzyssdch", 
+        "question": "京剧艺术发展至今，行当主要分为四大类，主要是生、旦、丑和（ ）。", 
+        "sn": "160", 
+        "answer": "C"
+      }, 
+      {
+        "A": "生、旦", 
+        "C": "净、丑", 
+        "B": "旦、丑", 
+        "D": "生、丑", 
+        "pinyin": "jjdlpzyyzlghdbydrws", 
+        "question": "京剧的脸谱主要用在（ ）两个行当扮演的人物上。", 
+        "sn": "161", 
+        "answer": "C"
+      }, 
+      {
+        "A": "净", 
+        "C": "老生", 
+        "B": "旦", 
+        "D": "小生", 
+        "pinyin": "jjxlnyghdxyylp", 
+        "question": "京剧下列哪一个行当需要用脸谱？", 
+        "sn": "162", 
+        "answer": "A"
+      }, 
+      {
+        "A": "丑", 
+        "C": "老生", 
+        "B": "旦", 
+        "D": "小生", 
+        "pinyin": "jjxlnyghdxyylp", 
+        "question": "京剧下列哪一个行当需要用脸谱？", 
+        "sn": "163", 
+        "answer": "A"
+      }, 
+      {
+        "A": "奸诈", 
+        "C": "虚伪", 
+        "B": "忠勇", 
+        "D": "狡猾", 
+        "pinyin": "jjlpdhsdbsm", 
+        "question": "京剧脸谱的红色代表什么？", 
+        "sn": "164", 
+        "answer": "B"
+      }, 
+      {
+        "A": "奸诈", 
+        "C": "虚伪", 
+        "B": "刚直", 
+        "D": "狡猾", 
+        "pinyin": "jjlpdhsdbsm", 
+        "question": "京剧脸谱的黑色代表什么？", 
+        "sn": "165", 
+        "answer": "B"
+      }, 
+      {
+        "A": "奸诈", 
+        "C": "虚伪", 
+        "B": "威猛", 
+        "D": "狡猾", 
+        "pinyin": "jjlpdlsdbsm", 
+        "question": "京剧脸谱的蓝色代表什么？", 
+        "sn": "166", 
+        "answer": "B"
+      }, 
+      {
+        "A": "奸诈", 
+        "C": "刚直", 
+        "B": "威猛", 
+        "D": "忠勇", 
+        "pinyin": "jjlpdbsdbsm", 
+        "question": "京剧脸谱的白色代表什么？", 
+        "sn": "167", 
+        "answer": "A"
+      }, 
+      {
+        "A": "红色", 
+        "C": "蓝色", 
+        "B": "黑色", 
+        "D": "白色", 
+        "pinyin": "jjjmzdccybysmysdlp", 
+        "question": "京剧剧目中的曹操一般用什么颜色的脸谱？", 
+        "sn": "168", 
+        "answer": "D"
+      }, 
+      {
+        "A": "红色", 
+        "C": "蓝色", 
+        "B": "黑色", 
+        "D": "白色", 
+        "pinyin": "jjjmzdgyybysmysdlp", 
+        "question": "京剧剧目中的关羽一般用什么颜色的脸谱？", 
+        "sn": "169", 
+        "answer": "A"
+      }, 
+      {
+        "A": "红色", 
+        "C": "蓝色", 
+        "B": "黑色", 
+        "D": "白色", 
+        "pinyin": "jjjmzddedybysmysdlp", 
+        "question": "京剧剧目中的窦尔敦一般用什么颜色的脸谱？", 
+        "sn": "170", 
+        "answer": "C"
+      }, 
+      {
+        "A": "红色", 
+        "C": "蓝色", 
+        "B": "黑色", 
+        "D": "白色", 
+        "pinyin": "jjjmzdbgybysmysdlp", 
+        "question": "京剧剧目中的包公一般用什么颜色的脸谱？", 
+        "sn": "171", 
+        "answer": "B"
+      }, 
+      {
+        "A": "行头", 
+        "C": "家业", 
+        "B": "砌末", 
+        "D": "场面", 
+        "pinyin": "gddxqfzdchssm", 
+        "question": "古代对戏曲服装的称呼是什么？", 
+        "sn": "172", 
+        "answer": "A"
+      }, 
+      {
+        "A": "行头", 
+        "C": "家业", 
+        "B": "砌末", 
+        "D": "场面", 
+        "pinyin": "ctxqycdwtdjybtcwsm", 
+        "question": "传统戏曲演出的舞台道具一般统称为什么？", 
+        "sn": "173", 
+        "answer": "B"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "尚派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "mlfcldjjyslpjsm", 
+        "question": "梅兰芳创立的京剧艺术流派叫什么？", 
+        "sn": "174", 
+        "answer": "A"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "尚派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "cyqcldjjyslpjsm", 
+        "question": "程砚秋创立的京剧艺术流派叫什么？", 
+        "sn": "175", 
+        "answer": "B"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "尚派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "sxycldjjyslpjsm", 
+        "question": "尚小云创立的京剧艺术流派叫什么？", 
+        "sn": "176", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "尚派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "xhscldjjyslpjsm", 
+        "question": "荀慧生创立的京剧艺术流派叫什么？", 
+        "sn": "177", 
+        "answer": "D"
+      }, 
+      {
+        "A": "三岔口", 
+        "C": "击鼓骂曹", 
+        "B": "贵妃醉酒", 
+        "D": "李陵碑", 
+        "pinyin": "xlnygjmsyjjmpddbxjm", 
+        "question": "下列哪一个剧目属于京剧梅派的代表性剧目？", 
+        "sn": "178", 
+        "answer": "B"
+      }, 
+      {
+        "A": "锁麟囊", 
+        "C": "夜奔", 
+        "B": "李逵探母", 
+        "D": "红灯记", 
+        "pinyin": "xlnygjmsyjjcpddbxjm", 
+        "question": "下列哪一个剧目属于京剧程派的代表性剧目？", 
+        "sn": "179", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三岔口", 
+        "C": "夜奔", 
+        "B": "双阳公主", 
+        "D": "智取威虎山", 
+        "pinyin": "xlnygjmsyjjspddbxjm", 
+        "question": "下列哪一个剧目属于京剧尚派的代表性剧目？", 
+        "sn": "180", 
+        "answer": "B"
+      }, 
+      {
+        "A": "奇袭白虎团", 
+        "C": "夜奔", 
+        "B": "红娘", 
+        "D": "智取威虎山", 
+        "pinyin": "xlnygjmsyjjxpddbxjm", 
+        "question": "下列哪一个剧目属于京剧荀派的代表性剧目？", 
+        "sn": "181", 
+        "answer": "B"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "红楼梦", 
+        "B": "水浒传", 
+        "D": "西游记", 
+        "pinyin": "jjdntgdgsqcynybxs", 
+        "question": "京剧《大闹天宫》的故事取材于哪一部小说？", 
+        "sn": "182", 
+        "answer": "D"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "杨家将", 
+        "B": "水浒传", 
+        "D": "岳飞传", 
+        "pinyin": "jjsltmqcysmgs", 
+        "question": "京剧《四郎探母》取材于什么故事？", 
+        "sn": "183", 
+        "answer": "C"
+      }, 
+      {
+        "A": "1930", 
+        "C": "1960", 
+        "B": "1950", 
+        "D": "1980", 
+        "pinyin": "whjjtcjyn", 
+        "question": "武汉京剧团创建于（ ）年。", 
+        "sn": "184", 
+        "answer": "B"
+      }, 
+      {
+        "A": "2000", 
+        "C": "2010", 
+        "B": "2004", 
+        "D": "2018", 
+        "pinyin": "whjjtcjynngmwwhjjy", 
+        "question": "武汉京剧团创建于1950年，（ ）年更名为武汉京剧院。", 
+        "sn": "185", 
+        "answer": "B"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "杨家将", 
+        "B": "水浒传", 
+        "D": "岳飞传", 
+        "pinyin": "hjzfcdgscznbxs", 
+        "question": "汉剧《捉放曹》的故事出自哪部小说？", 
+        "sn": "186", 
+        "answer": "A"
+      }, 
+      {
+        "A": "宇宙锋", 
+        "C": "哭祖庙", 
+        "B": "兴汉图", 
+        "D": "辕门斩子", 
+        "pinyin": "xlnbzpshjysdscbhddbz", 
+        "question": "下列哪部作品是汉剧艺术大师陈伯华的代表作？", 
+        "sn": "187", 
+        "answer": "A"
+      }, 
+      {
+        "A": "贵妃醉酒", 
+        "C": "二度梅", 
+        "B": "哭祖庙", 
+        "D": "柜中缘", 
+        "pinyin": "xlnbzpshjssdwwtbddbz", 
+        "question": "下列哪部作品是汉剧“三生大王”吴天保的代表作？", 
+        "sn": "188", 
+        "answer": "B"
+      }, 
+      {
+        "A": "贵妃醉酒", 
+        "C": "乌龙院", 
+        "B": "兴汉图", 
+        "D": "秦琼表功", 
+        "pinyin": "xlnbzpshjdwyhyddbz", 
+        "question": "下列哪部作品是“汉剧大王”余洪元的代表作？", 
+        "sn": "189", 
+        "answer": "B"
+      }, 
+      {
+        "A": "蔡甸区", 
+        "C": "江夏区", 
+        "B": "江岸区", 
+        "D": "新洲区", 
+        "pinyin": "zmjjyytxpcsywhs", 
+        "question": "著名京剧演员谭鑫培，出生于武汉市（ ）。", 
+        "sn": "190", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "谭鑫培", 
+        "B": "周信芳", 
+        "D": "尚小云", 
+        "pinyin": "xlnywzmjjyycsyhbs", 
+        "question": "下列哪一位著名京剧演员出生于湖北省？", 
+        "sn": "191", 
+        "answer": "C"
+      }, 
+      {
+        "A": "谭鑫培公园", 
+        "C": "中山舰纪念馆", 
+        "B": "龙泉山生态园", 
+        "D": "问津书院", 
+        "pinyin": "wjntxpzwzszwhjxqjsy", 
+        "question": "为纪念谭鑫培这位宗师，在武汉江夏区建设有（ ）。", 
+        "sn": "192", 
+        "answer": "A"
+      }, 
+      {
+        "A": "胡和颜", 
+        "C": "陈伯华", 
+        "B": "邱玲", 
+        "D": "王荔", 
+        "pinyin": "xlysmjchdhjysdschdsnyw", 
+        "question": "下列艺术名家，曾获得“汉剧艺术大师”称号的是哪一位？", 
+        "sn": "193", 
+        "answer": "C"
+      }, 
+      {
+        "A": "余洪元", 
+        "C": "吴天保", 
+        "B": "陈伯华", 
+        "D": "董瑶阶", 
+        "pinyin": "whhjysgjjzdytsryzss", 
+        "question": "武汉汉剧院是国家级重点院团，首任院长是谁？", 
+        "sn": "194", 
+        "answer": "B"
+      }, 
+      {
+        "A": "梅花奖", 
+        "C": "金菊奖", 
+        "B": "牡丹奖", 
+        "D": "江花奖", 
+        "pinyin": "dqzgxqbylydzgjssm", 
+        "question": "当前中国戏曲表演领域的最高奖是什么？", 
+        "sn": "195", 
+        "answer": "A"
+      }, 
+      {
+        "A": "梅花奖", 
+        "C": "金菊奖", 
+        "B": "牡丹奖", 
+        "D": "江花奖", 
+        "pinyin": "whsysrcjdmcssm", 
+        "question": "武汉市艺术人才奖的名称是什么？", 
+        "sn": "196", 
+        "answer": "D"
+      }, 
+      {
+        "A": "三国戏", 
+        "C": "猴戏", 
+        "B": "水浒戏", 
+        "D": "目连戏", 
+        "pinyin": "hjctjmzlsyytcdjmslzdqzyyslzd", 
+        "question": "汉剧传统剧目中，历史演义题材的剧目数量众多，其中，又以（ ）数量最多。", 
+        "sn": "197", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三生", 
+        "C": "五丑", 
+        "B": "四旦", 
+        "D": "十杂", 
+        "pinyin": "whsyzyzyyjhymdshdyy", 
+        "question": "武汉俗语中有这样一句话：一末带（ ），烧火带引伢。", 
+        "sn": "198", 
+        "answer": "D"
+      }, 
+      {
+        "A": "一末", 
+        "C": "五丑", 
+        "B": "二净", 
+        "D": "八贴", 
+        "pinyin": "whsyzyzyyjhdszshdyy", 
+        "question": "武汉俗语中有这样一句话：（ ）带十杂，烧火带引伢。", 
+        "sn": "199", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "红楼梦", 
+        "B": "水浒传", 
+        "D": "西游记", 
+        "pinyin": "jjyzlqcywggdmz", 
+        "question": "京剧《野猪林》取材于我国古典名著（ ）。", 
+        "sn": "200", 
+        "answer": "B"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "红楼梦", 
+        "B": "水浒传", 
+        "D": "西游记", 
+        "pinyin": "jjhnqcywggdmz", 
+        "question": "京剧《红娘》取材于我国古典名著（ ）。", 
+        "sn": "201", 
+        "answer": "C"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "红楼梦", 
+        "B": "水浒传", 
+        "D": "西游记", 
+        "pinyin": "jjkcjqcywggdmz", 
+        "question": "京剧《空城计》取材于我国古典名著（ ）。", 
+        "sn": "202", 
+        "answer": "A"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "清朝道光", 
+        "B": "宋代", 
+        "D": "民国", 
+        "pinyin": "hxhgxzzjyjkssx", 
+        "question": "黄孝花鼓戏早在（ ）就已经开始盛行。", 
+        "sn": "203", 
+        "answer": "C"
+      }, 
+      {
+        "A": "上海", 
+        "C": "沙市", 
+        "B": "汉口", 
+        "D": "宜昌", 
+        "pinyin": "nhxhgxbjrwgzjycksjrcsfzjd", 
+        "question": "1912年，黄孝花鼓戏班进入（ ）外国租界演出，开始进入城市发展阶段。", 
+        "sn": "204", 
+        "answer": "B"
+      }, 
+      {
+        "A": "刘海", 
+        "C": "髯口", 
+        "B": "水片", 
+        "D": "水袖", 
+        "pinyin": "xqdxhzstzyylsdjfjsm", 
+        "question": "戏曲旦行化妆时贴在演员脸上的假发叫什么？", 
+        "sn": "205", 
+        "answer": "B"
+      }, 
+      {
+        "A": "豫剧", 
+        "C": "荆州花鼓戏", 
+        "B": "川剧", 
+        "D": "京剧", 
+        "pinyin": "cjdxtspdhzjssczjjeld", 
+        "question": "楚剧旦行贴水片的化妆技术，是从（ ）中借鉴而来的。", 
+        "sn": "206", 
+        "answer": "D"
+      }, 
+      {
+        "A": "沈云陔", 
+        "C": "钟惠然", 
+        "B": "江秋屏", 
+        "D": "陈伯华", 
+        "pinyin": "xlnywysjbscjysj", 
+        "question": "下列哪一位艺术家不是楚剧艺术家？", 
+        "sn": "207", 
+        "answer": "D"
+      }, 
+      {
+        "A": "沈云陔", 
+        "C": "董瑶阶", 
+        "B": "余洪元", 
+        "D": "吴天保", 
+        "pinyin": "xlnywysjbshjysj", 
+        "question": "下列哪一位艺术家不是汉剧艺术家？", 
+        "sn": "208", 
+        "answer": "A"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "程砚秋", 
+        "B": "余洪元", 
+        "D": "余叔岩", 
+        "pinyin": "xlnywysjbsjjysj", 
+        "question": "下列哪一位艺术家不是京剧艺术家？", 
+        "sn": "209", 
+        "answer": "B"
+      }, 
+      {
+        "A": "钟惠然", 
+        "C": "余洪元", 
+        "B": "梅兰芳", 
+        "D": "程砚秋", 
+        "pinyin": "xlnywysjscjysj", 
+        "question": "下列哪一位艺术家是楚剧艺术家？", 
+        "sn": "210", 
+        "answer": "A"
+      }, 
+      {
+        "A": "吴天保", 
+        "C": "梅兰芳", 
+        "B": "钟惠然", 
+        "D": "尚小云", 
+        "pinyin": "xlnywysjshjysj", 
+        "question": "下列哪一位艺术家是汉剧艺术家？", 
+        "sn": "211", 
+        "answer": "A"
+      }, 
+      {
+        "A": "程砚秋", 
+        "C": "余洪元", 
+        "B": "沈云陔", 
+        "D": "董瑶阶", 
+        "pinyin": "xlnywysjsjjysj", 
+        "question": "下列哪一位艺术家是京剧艺术家？", 
+        "sn": "212", 
+        "answer": "A"
+      }, 
+      {
+        "A": "锋》", 
+        "C": "楚剧《葛麻》", 
+        "B": "母》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzsgyydsnyg", 
+        "question": "下列戏曲作品取材于古典名著《三国演义》的是哪一个？", 
+        "sn": "213", 
+        "answer": "D"
+      }, 
+      {
+        "A": "图》", 
+        "C": "》", 
+        "B": "会》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzsgyydsnyg", 
+        "question": "下列戏曲作品取材于古典名著《三国演义》的是哪一个？", 
+        "sn": "214", 
+        "answer": "D"
+      }, 
+      {
+        "A": "教子》", 
+        "C": "楚剧《送友》", 
+        "B": "》", 
+        "D": "曹》", 
+        "pinyin": "xlxqzpqcygdmzsgyydsnyg", 
+        "question": "下列戏曲作品取材于古典名著《三国演义》的是哪一个？", 
+        "sn": "215", 
+        "answer": "D"
+      }, 
+      {
+        "A": "草》", 
+        "C": "疯》", 
+        "B": "字》", 
+        "D": "京剧《祭江》", 
+        "pinyin": "xlxqzpqcygdmzsgyydsnyg", 
+        "question": "下列戏曲作品取材于古典名著《三国演义》的是哪一个？", 
+        "sn": "216", 
+        "answer": "D"
+      }, 
+      {
+        "A": "夜奔》", 
+        "C": "楚剧《断桥》", 
+        "B": "带》", 
+        "D": "挂帅》", 
+        "pinyin": "xlxqzpqcygdmzshzdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《水浒传》的是哪一个？", 
+        "sn": "217", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三郎》", 
+        "C": "妆》", 
+        "B": "关》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzshzdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《水浒传》的是哪一个？", 
+        "sn": "218", 
+        "answer": "A"
+      }, 
+      {
+        "A": "杀家》", 
+        "C": "打妻》", 
+        "B": "》", 
+        "D": "赶寿》", 
+        "pinyin": "xlxqzpqcygdmzshzdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《水浒传》的是哪一个？", 
+        "sn": "219", 
+        "answer": "A"
+      }, 
+      {
+        "A": "盗鸡》", 
+        "C": "泼粥》", 
+        "B": "计》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzshzdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《水浒传》的是哪一个？", 
+        "sn": "220", 
+        "answer": "A"
+      }, 
+      {
+        "A": "茅庐》", 
+        "C": "》", 
+        "B": "》", 
+        "D": "亲》", 
+        "pinyin": "xlxqzpqcygdmzxyjdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《西游记》的是哪一个？", 
+        "sn": "221", 
+        "answer": "B"
+      }, 
+      {
+        "A": "三关》", 
+        "C": "》", 
+        "B": "》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzxyjdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《西游记》的是哪一个？", 
+        "sn": "222", 
+        "answer": "B"
+      }, 
+      {
+        "A": "庙》", 
+        "C": "》", 
+        "B": "骨精》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzxyjdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《西游记》的是哪一个？", 
+        "sn": "223", 
+        "answer": "B"
+      }, 
+      {
+        "A": "记》", 
+        "C": "汉剧《拦马》", 
+        "B": "》", 
+        "D": "马》", 
+        "pinyin": "xlxqzpqcygdmzxyjdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《西游记》的是哪一个？", 
+        "sn": "224", 
+        "answer": "B"
+      }, 
+      {
+        "A": "卷》", 
+        "C": "尤》", 
+        "B": "字》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzhlmdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《红楼梦》的是哪一个？", 
+        "sn": "225", 
+        "answer": "C"
+      }, 
+      {
+        "A": "豹》", 
+        "C": "花》", 
+        "B": "郎》", 
+        "D": "赶寿》", 
+        "pinyin": "xlxqzpqcygdmzhlmdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《红楼梦》的是哪一个？", 
+        "sn": "226", 
+        "answer": "C"
+      }, 
+      {
+        "A": "教子》", 
+        "C": "》", 
+        "B": "》", 
+        "D": "》", 
+        "pinyin": "xlxqzpqcygdmzhlmdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《红楼梦》的是哪一个？", 
+        "sn": "227", 
+        "answer": "C"
+      }, 
+      {
+        "A": "鼓》", 
+        "C": "》", 
+        "B": "打妻》", 
+        "D": "楚剧《葛麻》", 
+        "pinyin": "xlxqzpqcygdmzhlmdsnyg", 
+        "question": "下列戏曲作品取材于古典名著《红楼梦》的是哪一个？", 
+        "sn": "228", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "尚派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "mtdjgxhjsz,hqwptmzzlysjjnglpdcd", 
+        "question": "“猛听得金鼓响画角声震,唤起我破天门壮志凌云……”是京剧哪个流派的唱段？", 
+        "sn": "229", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "荆州花鼓戏", 
+        "B": "楚剧", 
+        "D": "黄梅戏", 
+        "pinyin": "mnmjfszsnbhmxdcd", 
+        "question": "“民女名叫冯素贞……”是哪部黄梅戏的唱段？", 
+        "sn": "230", 
+        "answer": "D"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "hjmgyzptmzjqfszngsd", 
+        "question": "汉剧《穆桂英智破天门阵》剧情发生在那个时代", 
+        "sn": "231", 
+        "answer": "B"
+      }, 
+      {
+        "A": "春秋时代", 
+        "C": "三国时代", 
+        "B": "战国时代", 
+        "D": "民国", 
+        "pinyin": "hjsgmljqfszsmsd", 
+        "question": "汉剧《三顾茅庐》剧情发生在什么时代？", 
+        "sn": "232", 
+        "answer": "C"
+      }, 
+      {
+        "A": "春秋时代", 
+        "C": "三国时代", 
+        "B": "战国时代", 
+        "D": "民国", 
+        "pinyin": "hjkzmjqfszsmsd", 
+        "question": "汉剧《哭祖庙》剧情发生在什么时代？", 
+        "sn": "233", 
+        "answer": "C"
+      }, 
+      {
+        "A": "北宋", 
+        "C": "元代", 
+        "B": "南宋", 
+        "D": "清朝", 
+        "pinyin": "hjymczjqfszsmsd", 
+        "question": "汉剧《岳母刺字》剧情发生在什么时代？", 
+        "sn": "234", 
+        "answer": "B"
+      }, 
+      {
+        "A": "秦朝", 
+        "C": "宋朝", 
+        "B": "汉朝", 
+        "D": "明朝", 
+        "pinyin": "hjhzsljqfszsmsd", 
+        "question": "汉剧《活捉三郎》剧情发生在什么时代？", 
+        "sn": "235", 
+        "answer": "C"
+      }, 
+      {
+        "A": "秦朝", 
+        "C": "南宋", 
+        "B": "隋唐", 
+        "D": "清朝", 
+        "pinyin": "hjqqmmjqfszsmsd", 
+        "question": "汉剧《秦琼卖马》剧情发生在什么时代？", 
+        "sn": "236", 
+        "answer": "B"
+      }, 
+      {
+        "A": "北宋", 
+        "C": "明朝", 
+        "B": "南宋", 
+        "D": "清朝", 
+        "pinyin": "cjlmzpzgsfszsmsd", 
+        "question": "楚剧《吕蒙正泼粥》故事发生在什么时代？", 
+        "sn": "237", 
+        "answer": "A"
+      }, 
+      {
+        "A": "清朝", 
+        "C": "解放以前", 
+        "B": "民国", 
+        "D": "现代", 
+        "pinyin": "cjzbbgsfszsmsd", 
+        "question": "楚剧《追报表》故事发生在什么时代？", 
+        "sn": "238", 
+        "answer": "D"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "cjdjzgsfszsmsd", 
+        "question": "楚剧《打金枝》故事发生在什么时代？", 
+        "sn": "239", 
+        "answer": "A"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "cjqxlgsfszsmsd", 
+        "question": "楚剧《秦香莲》故事发生在什么时代？", 
+        "sn": "240", 
+        "answer": "B"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "cjmgyxfgsfszsmsd", 
+        "question": "楚剧《穆桂英休夫》故事发生在什么时代？", 
+        "sn": "241", 
+        "answer": "B"
+      }, 
+      {
+        "A": "明代", 
+        "C": "民国", 
+        "B": "清代", 
+        "D": "现代", 
+        "pinyin": "cjsycxgsfszsmsd", 
+        "question": "楚剧《三月茶香》故事发生在什么时代？", 
+        "sn": "242", 
+        "answer": "D"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "jjmgygsgsfszsmsd", 
+        "question": "京剧《穆桂英挂帅》故事发生在什么时代？", 
+        "sn": "243", 
+        "answer": "B"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "jjymzzgsfszsmsd", 
+        "question": "京剧《辕门斩子》故事发生在什么时代？", 
+        "sn": "244", 
+        "answer": "B"
+      }, 
+      {
+        "A": "隋唐", 
+        "C": "元代", 
+        "B": "北宋", 
+        "D": "清代", 
+        "pinyin": "jjblggsfszsmsd", 
+        "question": "京剧《白良关》故事发生在什么时代？", 
+        "sn": "245", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉代", 
+        "C": "宋代", 
+        "B": "唐代", 
+        "D": "民国", 
+        "pinyin": "jjgfzjgsfszsmsd", 
+        "question": "京剧《贵妃醉酒》故事发生在什么时代？", 
+        "sn": "246", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三国时代", 
+        "C": "唐朝", 
+        "B": "隋朝", 
+        "D": "宋朝", 
+        "pinyin": "jjjgmcgsfszsmsd", 
+        "question": "京剧《击鼓骂曹》故事发生在什么时代？", 
+        "sn": "247", 
+        "answer": "A"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "元代", 
+        "B": "宋代", 
+        "D": "明代", 
+        "pinyin": "jjlktmgsfszsmsd", 
+        "question": "京剧《李逵探母》故事发生在什么时代？", 
+        "sn": "248", 
+        "answer": "B"
+      }, 
+      {
+        "A": "李逵探母", 
+        "C": "天女散花", 
+        "B": "珠帘寨", 
+        "D": "辕门斩子", 
+        "pinyin": "gsymymzkmxsjjncxdcd", 
+        "question": "“观世音满月面珠开妙相……”是京剧哪出戏的唱段？", 
+        "sn": "249", 
+        "answer": "C"
+      }, 
+      {
+        "A": "庙》", 
+        "C": "》", 
+        "B": "酒》", 
+        "D": "》", 
+        "pinyin": "sjndbcwycxjhlygjzdjms", 
+        "question": "20世纪50年代被称为“一出戏救活了一个剧种”的剧目是？", 
+        "sn": "250", 
+        "answer": "D"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "诸葛亮", 
+        "B": "关羽", 
+        "D": "卖艺汉", 
+        "pinyin": "xlnywshjdhgzdrw", 
+        "question": "下列哪一位是汉剧《打花鼓》中的人物？", 
+        "sn": "251", 
+        "answer": "D"
+      }, 
+      {
+        "A": "薛湘灵", 
+        "C": "王春娥", 
+        "B": "刘玉莲", 
+        "D": "李逵", 
+        "pinyin": "xlnywshjsnjzzdrw", 
+        "question": "下列哪一位是汉剧《三娘教子》中的人物？", 
+        "sn": "252", 
+        "answer": "C"
+      }, 
+      {
+        "A": "白素贞", 
+        "C": "白骨精", 
+        "B": "孙悟空", 
+        "D": "林黛玉", 
+        "pinyin": "xlnywshjdxczdrw", 
+        "question": "下列哪一位是汉剧《盗仙草》中的人物？", 
+        "sn": "253", 
+        "answer": "A"
+      }, 
+      {
+        "A": "海舟", 
+        "C": "铁扇公主", 
+        "B": "杨四郎", 
+        "D": "阎惜娇", 
+        "pinyin": "xlnywshjhzggzdrw", 
+        "question": "下列哪一位是汉剧《海舟过关》中的人物？", 
+        "sn": "254", 
+        "answer": "A"
+      }, 
+      {
+        "A": "许仙", 
+        "C": "张文远", 
+        "B": "岳飞", 
+        "D": "李克用", 
+        "pinyin": "xlnywshjymczzdrw", 
+        "question": "下列哪一位是汉剧《岳母刺字》中的人物？", 
+        "sn": "255", 
+        "answer": "B"
+      }, 
+      {
+        "A": "董永", 
+        "C": "葛麻", 
+        "B": "周瑜", 
+        "D": "郭暖", 
+        "pinyin": "xlnywscjgmzdrw", 
+        "question": "下列哪一位是楚剧《葛麻》中的人物？", 
+        "sn": "256", 
+        "answer": "C"
+      }, 
+      {
+        "A": "董永", 
+        "C": "葛麻", 
+        "B": "周瑜", 
+        "D": "朱买臣", 
+        "pinyin": "xlnywscjymgdzdrw", 
+        "question": "下列哪一位是楚剧《夜梦冠带》中的人物？", 
+        "sn": "257", 
+        "answer": "D"
+      }, 
+      {
+        "A": "张二妹", 
+        "C": "王春娥", 
+        "B": "刘玉莲", 
+        "D": "李逵", 
+        "pinyin": "xlnywscjtcghzdrw", 
+        "question": "下列哪一位是楚剧《推车赶会》中的人物？", 
+        "sn": "258", 
+        "answer": "A"
+      }, 
+      {
+        "A": "许仙", 
+        "C": "周瑜", 
+        "B": "董永", 
+        "D": "葛麻", 
+        "pinyin": "xlnywscjdqzdrw", 
+        "question": "下列哪一位是楚剧《断桥》中的人物？", 
+        "sn": "259", 
+        "answer": "A"
+      }, 
+      {
+        "A": "张二妹", 
+        "C": "王春娥", 
+        "B": "刘玉莲", 
+        "D": "祝英台", 
+        "pinyin": "xlnywscjsyzdrw", 
+        "question": "下列哪一位是楚剧《送友》中的人物？", 
+        "sn": "260", 
+        "answer": "D"
+      }, 
+      {
+        "A": "张文远", 
+        "C": "黄忠", 
+        "B": "李克用", 
+        "D": "葛麻", 
+        "pinyin": "xlnywsjjdjszdrw", 
+        "question": "下列哪一位是京剧《定军山》中的人物？", 
+        "sn": "261", 
+        "answer": "C"
+      }, 
+      {
+        "A": "陈杏元", 
+        "C": "张二妹", 
+        "B": "俞素秋", 
+        "D": "阎惜娇", 
+        "pinyin": "xlnywsjjkyczdrw", 
+        "question": "下列哪一位是京剧《勘玉钏》中的人物？", 
+        "sn": "262", 
+        "answer": "B"
+      }, 
+      {
+        "A": "梁红玉", 
+        "C": "貂蝉", 
+        "B": "穆桂英", 
+        "D": "王昭君", 
+        "pinyin": "xlnywsjjmgygszdrw", 
+        "question": "下列哪一位是京剧《穆桂英挂帅》中的人物？", 
+        "sn": "263", 
+        "answer": "B"
+      }, 
+      {
+        "A": "王大娘", 
+        "C": "王春娥", 
+        "B": "杨贵妃", 
+        "D": "祝英台", 
+        "pinyin": "xlnywsjjjdgzdrw", 
+        "question": "下列哪一位是京剧《锔大缸》中的人物？", 
+        "sn": "264", 
+        "answer": "A"
+      }, 
+      {
+        "A": "周瑜", 
+        "C": "诸葛亮", 
+        "B": "杨延昭", 
+        "D": "卖艺汉", 
+        "pinyin": "xlnywsjjymzzzdrw", 
+        "question": "下列哪一位是京剧《辕门斩子》中的人物？", 
+        "sn": "265", 
+        "answer": "B"
+      }, 
+      {
+        "A": "贵妃醉酒", 
+        "C": "金钱豹", 
+        "B": "李逵探母", 
+        "D": "四进士", 
+        "pinyin": "xlnybzpsmlfddbz", 
+        "question": "下列哪一部作品是梅兰芳的代表作？", 
+        "sn": "266", 
+        "answer": "A"
+      }, 
+      {
+        "A": "空城计", 
+        "C": "击鼓骂曹", 
+        "B": "荒山泪", 
+        "D": "珠帘寨", 
+        "pinyin": "xlnybzpscyqddbz", 
+        "question": "下列哪一部作品是程砚秋的代表作？", 
+        "sn": "267", 
+        "answer": "B"
+      }, 
+      {
+        "A": "双阳公主", 
+        "C": "挡马", 
+        "B": "挑滑车", 
+        "D": "定军山", 
+        "pinyin": "xlnybzpssxyddbz", 
+        "question": "下列哪一部作品是尚小云的代表作？", 
+        "sn": "268", 
+        "answer": "A"
+      }, 
+      {
+        "A": "王宝钏", 
+        "C": "祭江", 
+        "B": "红娘", 
+        "D": "宇宙锋", 
+        "pinyin": "xlnybzpsxhsddbz", 
+        "question": "下列哪一部作品是荀慧生的代表作？", 
+        "sn": "269", 
+        "answer": "B"
+      }, 
+      {
+        "A": "穆桂英挂帅", 
+        "C": "挑滑车", 
+        "B": "锔大缸", 
+        "D": "徐策跑城", 
+        "pinyin": "xlnybzpszxfddbz", 
+        "question": "下列哪一部作品是周信芳的代表作？", 
+        "sn": "270", 
+        "answer": "D"
+      }, 
+      {
+        "A": "贵妃醉酒", 
+        "C": "生死恨", 
+        "B": "穆桂英挂帅", 
+        "D": "响马传", 
+        "pinyin": "xlnybzpbsmlfddbz", 
+        "question": "下列哪一部作品不是梅兰芳的代表作？", 
+        "sn": "271", 
+        "answer": "D"
+      }, 
+      {
+        "A": "双阳公主", 
+        "C": "秦良玉", 
+        "B": "三娘教子", 
+        "D": "秦琼卖马", 
+        "pinyin": "xlnybzpbssxyddbz", 
+        "question": "下列哪一部作品不是尚小云的代表作？", 
+        "sn": "272", 
+        "answer": "D"
+      }, 
+      {
+        "A": "红娘", 
+        "C": "红楼二尤", 
+        "B": "玉堂春", 
+        "D": "三岔口", 
+        "pinyin": "xlnybzpbsxhsddbz", 
+        "question": "下列哪一部作品不是荀慧生的代表作？", 
+        "sn": "273", 
+        "answer": "D"
+      }, 
+      {
+        "A": "荒山泪", 
+        "C": "春闺梦", 
+        "B": "锁麟囊", 
+        "D": "打渔杀家", 
+        "pinyin": "xlnybzpbscyqddbz", 
+        "question": "下列哪一部作品不是程砚秋的代表作？", 
+        "sn": "274", 
+        "answer": "D"
+      }, 
+      {
+        "A": "韩信", 
+        "C": "鹿台恨", 
+        "B": "徐策跑城", 
+        "D": "活捉三郎", 
+        "pinyin": "xlnybzpbszxfddbz", 
+        "question": "下列哪一部作品不是周信芳的代表作？", 
+        "sn": "275", 
+        "answer": "D"
+      }, 
+      {
+        "A": "兴汉图", 
+        "C": "宇宙锋", 
+        "B": "碰碑", 
+        "D": "时迁盗甲", 
+        "pinyin": "xlnybzpshjysdscbhddbz", 
+        "question": "下列哪一部作品是“汉剧艺术大师”陈伯华的代表作？", 
+        "sn": "276", 
+        "answer": "C"
+      }, 
+      {
+        "A": "二度梅", 
+        "C": "柜中缘", 
+        "B": "兴汉图", 
+        "D": "吵改嫁", 
+        "pinyin": "xlnybzpshjdwyhyddbz", 
+        "question": "下列哪一部作品是“汉剧大王”余洪元的代表作？", 
+        "sn": "277", 
+        "answer": "B"
+      }, 
+      {
+        "A": "辕门斩子", 
+        "C": "借牛", 
+        "B": "打花鼓", 
+        "D": "宇宙锋", 
+        "pinyin": "xlnybzpshjwpclzwtbddbz", 
+        "question": "下列哪一部作品是汉剧“吴派”创立者吴天保的代表作？", 
+        "sn": "278", 
+        "answer": "A"
+      }, 
+      {
+        "A": "宇宙锋", 
+        "C": "柜中缘", 
+        "B": "李陵碑", 
+        "D": "二度梅", 
+        "pinyin": "xlnybzpbshjysdscbhddbz", 
+        "question": "下列哪一部作品不是“汉剧艺术大师”陈伯华的代表作？", 
+        "sn": "279", 
+        "answer": "B"
+      }, 
+      {
+        "A": "乔府求计", 
+        "C": "李陵碑", 
+        "B": "兴汉图", 
+        "D": "柜中缘", 
+        "pinyin": "xlnybzpbshjdwyhyddbz", 
+        "question": "下列哪一部作品不是“汉剧大王”余洪元的代表作？", 
+        "sn": "280", 
+        "answer": "D"
+      }, 
+      {
+        "A": "辕门斩子", 
+        "C": "哭祖庙", 
+        "B": "打鼓骂曹", 
+        "D": "二度梅", 
+        "pinyin": "xlnybzpbshjwpclzwtbddbz", 
+        "question": "下列哪一部作品不是汉剧“吴派”创立者吴天保的代表作？", 
+        "sn": "281", 
+        "answer": "D"
+      }, 
+      {
+        "A": "庵堂认母", 
+        "C": "张德和", 
+        "B": "拦马", 
+        "D": "奇怪的脚印", 
+        "pinyin": "xlnybzpscjmjsygddbz", 
+        "question": "下列哪一部作品是楚剧名家沈云陔的代表作？", 
+        "sn": "282", 
+        "answer": "A"
+      }, 
+      {
+        "A": "葛马", 
+        "C": "拦马", 
+        "B": "百日缘", 
+        "D": "闹江", 
+        "pinyin": "xlnybzpscjmjgxbddbz", 
+        "question": "下列哪一部作品是楚剧名家关啸彬的代表作？", 
+        "sn": "283", 
+        "answer": "B"
+      }, 
+      {
+        "A": "拦马", 
+        "C": "张德和", 
+        "B": "打金枝", 
+        "D": "奇怪的脚印", 
+        "pinyin": "xlnybzpscjmjlyqddbz", 
+        "question": "下列哪一部作品是楚剧名家李雅樵的代表作？", 
+        "sn": "284", 
+        "answer": "B"
+      }, 
+      {
+        "A": "庵堂认母", 
+        "C": "夜梦冠带", 
+        "B": "杀狗惊妻", 
+        "D": "葛麻", 
+        "pinyin": "xlnybzpbscjmjsygddbz", 
+        "question": "下列哪一部作品不是楚剧名家沈云陔的代表作？", 
+        "sn": "285", 
+        "answer": "D"
+      }, 
+      {
+        "A": "思凡", 
+        "C": "百日缘", 
+        "B": "双玉蝉", 
+        "D": "三岔口", 
+        "pinyin": "xlnybzpbscjmjgxbddbz", 
+        "question": "下列哪一部作品不是楚剧名家关啸彬的代表作？", 
+        "sn": "286", 
+        "answer": "D"
+      }, 
+      {
+        "A": "打金枝", 
+        "C": "菜", 
+        "B": "访友", 
+        "D": "追报表", 
+        "pinyin": "xlnybzpbscjmjlyqddbz", 
+        "question": "下列哪一部作品不是楚剧名家李雅樵的代表作？", 
+        "sn": "287", 
+        "answer": "D"
+      }, 
+      {
+        "A": "何祚欢", 
+        "C": "张明智", 
+        "B": "夏雨田", 
+        "D": "夏菊花", 
+        "pinyin": "xlnywshbdgbyysj", 
+        "question": "下列哪一位是湖北大鼓表演艺术家？", 
+        "sn": "288", 
+        "answer": "C"
+      }, 
+      {
+        "A": "何祚欢", 
+        "C": "张明智", 
+        "B": "夏雨田", 
+        "D": "夏菊花", 
+        "pinyin": "xlnywswhzjbyysj", 
+        "question": "下列哪一位是武汉杂技表演艺术家？", 
+        "sn": "289", 
+        "answer": "D"
+      }, 
+      {
+        "A": "何祚欢", 
+        "C": "张明智", 
+        "B": "夏雨田", 
+        "D": "夏菊花", 
+        "pinyin": "xlnywshbpsbyysj", 
+        "question": "下列哪一位是湖北评书表演艺术家？", 
+        "sn": "290", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武汉京剧院", 
+        "C": "剧院", 
+        "B": "武汉汉剧院", 
+        "D": "武汉说唱团", 
+        "pinyin": "whsjzycsqyczccbydysdws", 
+        "question": "武汉市级专业从事曲艺创作、传承、表演的艺术单位是（ ）。", 
+        "sn": "291", 
+        "answer": "D"
+      }, 
+      {
+        "A": "武汉京剧院", 
+        "C": "剧院", 
+        "B": "武汉汉剧院", 
+        "D": "武汉说唱团", 
+        "pinyin": "whsjzycshjczccbydysdws", 
+        "question": "武汉市级专业从事汉剧创作、传承、表演的艺术单位是（ ）。", 
+        "sn": "292", 
+        "answer": "B"
+      }, 
+      {
+        "A": "武汉楚剧院", 
+        "C": "作研究中心", 
+        "B": "术剧院", 
+        "D": "校", 
+        "pinyin": "whsjzycscjczccbydysdws", 
+        "question": "武汉市级专业从事楚剧创作、传承、表演的艺术单位是（ ）。", 
+        "sn": "293", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武汉京剧院", 
+        "C": "作研究中心", 
+        "B": "武汉楚剧院", 
+        "D": "校", 
+        "pinyin": "whsjzycsxqccfzyjddws", 
+        "question": "武汉市级专业从事戏曲传承发展研究的单位是（ ）。", 
+        "sn": "294", 
+        "answer": "C"
+      }, 
+      {
+        "A": "武汉京剧院", 
+        "C": "作研究中心", 
+        "B": "武汉楚剧院", 
+        "D": "武汉说唱团", 
+        "pinyin": "whsjzycsjjczccbydysdws", 
+        "question": "武汉市级专业从事京剧创作、传承、表演的艺术单位是（ ）。", 
+        "sn": "295", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉朝", 
+        "C": "宋代", 
+        "B": "唐朝", 
+        "D": "元代", 
+        "pinyin": "lyycyytxzlljzlyjyyrtzzcxz", 
+        "question": "“梨园”一词源于唐玄宗李隆基在梨园教演艺人，它最早出现在（ ）。", 
+        "sn": "296", 
+        "answer": "B"
+      }, 
+      {
+        "A": "一末", 
+        "C": "四旦", 
+        "B": "三生", 
+        "D": "六外", 
+        "pinyin": "hjyrlcysynyghd", 
+        "question": "汉剧艺人李彩云属于哪一个行当？", 
+        "sn": "297", 
+        "answer": "C"
+      }, 
+      {
+        "A": "七龄童", 
+        "C": "七岁红", 
+        "B": "牡丹花", 
+        "D": "筱牡丹花", 
+        "pinyin": "hjbyysjdyjyhszyzctdymssm", 
+        "question": "汉剧表演艺术家董瑶阶有“花衫状元”之称，他的艺名是什么？", 
+        "sn": "298", 
+        "answer": "B"
+      }, 
+      {
+        "A": "七龄童", 
+        "C": "七岁红", 
+        "B": "筱牡丹花", 
+        "D": "赛活猴", 
+        "pinyin": "hjysdscbhcygdymssm", 
+        "question": "汉剧艺术大师陈伯华曾用过的艺名是什么？", 
+        "sn": "299", 
+        "answer": "B"
+      }, 
+      {
+        "A": "迓腔", 
+        "C": "秦腔", 
+        "B": "高腔", 
+        "D": "二黄腔", 
+        "pinyin": "cjzjchxsfzohqzjyzmsqd", 
+        "question": "楚剧在进城后迅速发展，哦呵腔逐渐由（ ）之名所取代。", 
+        "sn": "300", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "京剧", 
+        "B": "楚剧", 
+        "D": "黄梅戏", 
+        "pinyin": "gmzcxssmjz", 
+        "question": "《葛麻》这出戏是什么剧种？", 
+        "sn": "301", 
+        "answer": "A"
+      }, 
+      {
+        "A": "蔡楚生", 
+        "C": "张浩然", 
+        "B": "吴天保", 
+        "D": "熊剑啸", 
+        "pinyin": "gmdsnwysjddbz", 
+        "question": "《葛麻》的是哪位艺术家的代表作？", 
+        "sn": "302", 
+        "answer": "D"
+      }, 
+      {
+        "A": "1", 
+        "C": "4", 
+        "B": "2", 
+        "D": "3", 
+        "pinyin": "cjgmbpcjcdy", 
+        "question": "楚剧《葛麻》被拍成几次电影？", 
+        "sn": "303", 
+        "answer": "B"
+      }, 
+      {
+        "A": "4", 
+        "C": "7", 
+        "B": "5", 
+        "D": "2", 
+        "pinyin": "cjgmzyjgjs", 
+        "question": "楚剧《葛麻》种有几个角色？", 
+        "sn": "304", 
+        "answer": "A"
+      }, 
+      {
+        "A": "丑角", 
+        "C": "刀马旦", 
+        "B": "武生", 
+        "D": "花脸", 
+        "pinyin": "xlxxznygscjgmzdhd", 
+        "question": "下列选项中哪一个是楚剧《葛麻》中的行当？", 
+        "sn": "305", 
+        "answer": "A"
+      }, 
+      {
+        "A": "昆曲", 
+        "C": "黄梅戏", 
+        "B": "京剧", 
+        "D": "楚剧", 
+        "pinyin": "xjxssmjzdbyysj", 
+        "question": "熊剑啸是什么剧种的表演艺术家？", 
+        "sn": "306", 
+        "answer": "D"
+      }, 
+      {
+        "A": "湖北", 
+        "C": "安徽", 
+        "B": "河南", 
+        "D": "天津", 
+        "pinyin": "cjssmdfdxqjz", 
+        "question": "楚剧是什么地方的戏曲剧种？", 
+        "sn": "307", 
+        "answer": "A"
+      }, 
+      {
+        "A": "张天赐", 
+        "C": "李雅樵", 
+        "B": " 熊剑啸", 
+        "D": "马金莲", 
+        "pinyin": "dygmddyss", 
+        "question": "电影《葛麻》的导演是谁？", 
+        "sn": "308", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1956", 
+        "C": "1949", 
+        "B": "1972", 
+        "D": "1980", 
+        "pinyin": "dygmpsynyn", 
+        "question": "电影《葛麻》拍摄于哪一年？", 
+        "sn": "309", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武汉市楚剧团", 
+        "C": "云梦楚剧团", 
+        "B": "黄陂区楚剧团", 
+        "D": "武汉京剧院", 
+        "pinyin": "jdcjzzxgmsngjtdbljm", 
+        "question": "经典楚剧折子戏《葛麻》是哪个剧团的保留剧目？", 
+        "sn": "310", 
+        "answer": "A"
+      }, 
+      {
+        "A": "高腔", 
+        "C": "小调", 
+        "B": "板腔", 
+        "D": "昆腔", 
+        "pinyin": "xlngbsycjsq", 
+        "question": "下列哪个不属于楚剧声腔？", 
+        "sn": "311", 
+        "answer": "D"
+      }, 
+      {
+        "A": "唱腔", 
+        "C": "把子功", 
+        "B": "念白", 
+        "D": "翎子功", 
+        "pinyin": "cjgmsywzdzgx", 
+        "question": "楚剧《葛麻》是以（ ）为主的做工戏？", 
+        "sn": "312", 
+        "answer": "B"
+      }, 
+      {
+        "A": "京剧", 
+        "C": "婺剧", 
+        "B": "豫剧", 
+        "D": "楚剧", 
+        "pinyin": "xqjmthcssmjz", 
+        "question": "戏曲剧目《挑滑车》是什么剧种？", 
+        "sn": "313", 
+        "answer": "A"
+      }, 
+      {
+        "A": "长靠武生", 
+        "C": "昆曲武生", 
+        "B": "杨派武生", 
+        "D": "楚剧武生", 
+        "pinyin": "yxdangwjjwsdhdfl", 
+        "question": "以下答案哪个为京剧武生的行当分类？", 
+        "sn": "314", 
+        "answer": "A"
+      }, 
+      {
+        "A": "丁字步", 
+        "C": "正字步", 
+        "B": "一字步", 
+        "D": "滑步", 
+        "pinyin": "jjwshddjbzzssm", 
+        "question": "京剧武生行当的基本站姿是什么？", 
+        "sn": "315", 
+        "answer": "A"
+      }, 
+      {
+        "A": "中南京剧工作", 
+        "C": "湖北省京剧院", 
+        "B": "中南艺术团", 
+        "D": "中南文工团", 
+        "pinyin": "whjjydqss", 
+        "question": "武汉京剧院的前身是（ ）？", 
+        "sn": "316", 
+        "answer": "A"
+      }, 
+      {
+        "A": "高百岁", 
+        "C": "刘子薇", 
+        "B": "梅兰芳", 
+        "D": "崔嵬", 
+        "pinyin": "whjjydsrtzs", 
+        "question": "武汉京剧院的首任团长是（ ）？", 
+        "sn": "317", 
+        "answer": "A"
+      }, 
+      {
+        "A": "方", 
+        "C": "对角线", 
+        "B": "圆", 
+        "D": "直线", 
+        "pinyin": "jjbyzsdywm", 
+        "question": "京剧表演中身段以（ ）为美？", 
+        "sn": "318", 
+        "answer": "B"
+      }, 
+      {
+        "A": "水浒传", 
+        "C": "红楼梦", 
+        "B": "三国演义", 
+        "D": "说岳全传", 
+        "pinyin": "jjthcqcy", 
+        "question": "京剧《挑滑车》取材于（ ）？", 
+        "sn": "319", 
+        "answer": "D"
+      }, 
+      {
+        "A": "文戏", 
+        "C": "旦角戏", 
+        "B": "武戏", 
+        "D": "丑角戏", 
+        "pinyin": "jjthcsyx", 
+        "question": "京剧《挑滑车》属于（ ）戏？", 
+        "sn": "320", 
+        "answer": "B"
+      }, 
+      {
+        "A": "高百岁", 
+        "C": "郭玉昆", 
+        "B": "高盛麟", 
+        "D": "陈伯华", 
+        "pinyin": "xlnwysjbswhjjydyy", 
+        "question": "下列哪位艺术家不是武汉京剧院的演员？", 
+        "sn": "321", 
+        "answer": "D"
+      }, 
+      {
+        "A": "长靠武生", 
+        "C": "昆曲武生", 
+        "B": "杨派武生", 
+        "D": "楚剧武生", 
+        "pinyin": "yxdangwjjwshdfl", 
+        "question": "以下答案哪个为京剧武生行当分类？", 
+        "sn": "322", 
+        "answer": "A"
+      }, 
+      {
+        "A": "长靠武旦和长靠武生", 
+        "C": "长靠武旦和短打武旦", 
+        "B": "短打武旦和短打武生", 
+        "D": "长靠武生和短打武生", 
+        "pinyin": "jjzdwdkyfw", 
+        "question": "京剧中的武旦可以分为（ ）？", 
+        "sn": "323", 
+        "answer": "C"
+      }, 
+      {
+        "A": "武生行当", 
+        "C": "小生行当", 
+        "B": "武旦行当", 
+        "D": "老旦行当", 
+        "pinyin": "jjdmzybjsysmhd", 
+        "question": "京剧《挡马》中杨八姐属于什么行当？", 
+        "sn": "324", 
+        "answer": "B"
+      }, 
+      {
+        "A": "虚拟性", 
+        "C": "拟人化", 
+        "B": "真实性", 
+        "D": "拟物化", 
+        "pinyin": "yyzwtslymbdtmsby", 
+        "question": "演员在舞台上利用马鞭代替马是（ ）表演。", 
+        "sn": "325", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三、五", 
+        "C": "七、八", 
+        "B": "二、六", 
+        "D": "一、四", 
+        "pinyin": "jjyczdmbfwhgs", 
+        "question": "京剧演出中的马鞭分为（ ）和（ ）个穗？", 
+        "sn": "326", 
+        "answer": "A"
+      }, 
+      {
+        "A": "展示身份", 
+        "C": "报家门", 
+        "B": "通关", 
+        "D": "亮相", 
+        "pinyin": "jjdmzypdzys", 
+        "question": "京剧《挡马》中腰牌的作用是（ ）？", 
+        "sn": "327", 
+        "answer": "B"
+      }, 
+      {
+        "A": "长靠武生", 
+        "C": "短打武生", 
+        "B": "短靠武生", 
+        "D": "老旦行当", 
+        "pinyin": "xshzyzxs", 
+        "question": "《小商河》中杨再兴是（ ）？", 
+        "sn": "328", 
+        "answer": "A"
+      }, 
+      {
+        "A": "云手取于指", 
+        "C": "云手取于指", 
+        "B": "山膀取于肩", 
+        "D": "水袖挥舞", 
+        "pinyin": "jjwshddsdyds", 
+        "question": "京剧武生行当的身段要点是（ ）？", 
+        "sn": "329", 
+        "answer": "C"
+      }, 
+      {
+        "A": "婉转细腻", 
+        "C": "武戏文唱", 
+        "B": "优美自然", 
+        "D": "扮相端庄", 
+        "pinyin": "jjwsbydtds", 
+        "question": "京剧武生表演的特点是？", 
+        "sn": "330", 
+        "answer": "C"
+      }, 
+      {
+        "A": "唐代", 
+        "C": "民国", 
+        "B": "清代", 
+        "D": "宋代", 
+        "pinyin": "xshjsdscddgs", 
+        "question": "《小商河》讲述的是（ ）朝代的故事？", 
+        "sn": "331", 
+        "answer": "D"
+      }, 
+      {
+        "A": "大刀", 
+        "C": "棍", 
+        "B": "单头长枪", 
+        "D": "剑", 
+        "pinyin": "xshzyzxsydbqs", 
+        "question": "《小商河》中杨再兴使用的兵器是（ ）？", 
+        "sn": "332", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《西游记》", 
+        "C": "《三国志》", 
+        "B": "《隋唐演义》", 
+        "D": "《说岳全传》", 
+        "pinyin": "jjxshdgslys", 
+        "question": "京剧《小商河》的故事来源是（ ）？", 
+        "sn": "333", 
+        "answer": "D"
+      }, 
+      {
+        "A": "杨家将故事", 
+        "C": "西游记故事", 
+        "B": "水浒故事", 
+        "D": "宋江故事", 
+        "pinyin": "ymzzjsds", 
+        "question": "《辕门斩子》讲述的是？", 
+        "sn": "334", 
+        "answer": "A "
+      }, 
+      {
+        "A": "四大名旦", 
+        "C": "四大青衣", 
+        "B": "四大老生", 
+        "D": "四大须生", 
+        "pinyin": "gqksyxlngch", 
+        "question": "高庆奎属于下列哪个称号？", 
+        "sn": "335", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《斩黄袍》", 
+        "C": "《辕门斩子》", 
+        "B": "《斩马谡》", 
+        "D": "《斩韩信》", 
+        "pinyin": "xmngjmbsgqkdnsj", 
+        "question": "下面哪个剧目不是高庆奎的拿手剧？", 
+        "sn": "336", 
+        "answer": "D"
+      }, 
+      {
+        "A": "杨派（杨宝森）", 
+        "C": "陈派（陈伯华）", 
+        "B": "余派（余叔岩）", 
+        "D": "高派（高庆奎）", 
+        "pinyin": "xmngpbbsjjlspb", 
+        "question": "下面哪个派别不是京剧老生派别？", 
+        "sn": "337", 
+        "answer": "D"
+      }, 
+      {
+        "A": "杨派（杨宝森）", 
+        "C": "陈派（陈伯华）", 
+        "B": "余派（余叔岩）", 
+        "D": "高派（高庆奎）", 
+        "pinyin": "ymzzsngpbddbz", 
+        "question": "《辕门斩子》是哪个派别的代表作？", 
+        "sn": "338", 
+        "answer": "D"
+      }, 
+      {
+        "A": "整冠", 
+        "C": "大笑", 
+        "B": "捋髯", 
+        "D": "拱手", 
+        "pinyin": "xmngbsjjwtsdlyby", 
+        "question": "下面哪个不是京剧舞台上的礼仪表演？", 
+        "sn": "339", 
+        "answer": "C"
+      }, 
+      {
+        "A": "水袖", 
+        "C": "拱手", 
+        "B": "背躬", 
+        "D": "圆场", 
+        "pinyin": "xmngsjjwtsdlyby", 
+        "question": "下面哪个是京剧舞台上的礼仪表演？", 
+        "sn": "340", 
+        "answer": "C"
+      }, 
+      {
+        "A": "高亢激昂", 
+        "C": "武戏文唱", 
+        "B": "优美自然", 
+        "D": "扮相端庄", 
+        "pinyin": "jjgpgqkdcqtd", 
+        "question": "京剧高派（高庆奎）的唱腔特点？", 
+        "sn": "341", 
+        "answer": "A"
+      }, 
+      {
+        "A": "真实性", 
+        "C": "虚拟性", 
+        "B": "自然性", 
+        "D": "物质性", 
+        "pinyin": "xqbysdby", 
+        "question": "戏曲表演是（ ）的表演？", 
+        "sn": "342", 
+        "answer": "C"
+      }, 
+      {
+        "A": "1", 
+        "C": "3", 
+        "B": "2", 
+        "D": "4", 
+        "pinyin": "zhqzcxljgrw", 
+        "question": "《站花墙》中出现了几个人物？", 
+        "sn": "343", 
+        "answer": "D"
+      }, 
+      {
+        "A": "杨玉春", 
+        "C": "杨宗保", 
+        "B": "穆桂英", 
+        "D": "梅香", 
+        "pinyin": "xmngszhqzdrw", 
+        "question": "下面哪个是《站花墙》中的人物？", 
+        "sn": "344", 
+        "answer": "A"
+      }, 
+      {
+        "A": "花旦", 
+        "C": "小生", 
+        "B": "老旦", 
+        "D": "泼辣旦", 
+        "pinyin": "zhqzcxsysmhd", 
+        "question": "《站花墙》中春香属于什么行当？", 
+        "sn": "345", 
+        "answer": "A"
+      }, 
+      {
+        "A": "花旦", 
+        "C": "小生", 
+        "B": "老旦", 
+        "D": "泼辣旦", 
+        "pinyin": "zhqzyycsysmhd", 
+        "question": "《站花墙》中杨玉春属于什么行当？", 
+        "sn": "346", 
+        "answer": "C"
+      }, 
+      {
+        "A": "水袖", 
+        "C": "跟头", 
+        "B": "甩发", 
+        "D": "变花", 
+        "pinyin": "zhqzdkds", 
+        "question": "《站花墙》中的看点是？", 
+        "sn": "347", 
+        "answer": "D"
+      }, 
+      {
+        "A": "楚剧", 
+        "C": "京剧", 
+        "B": "汉剧", 
+        "D": "豫剧", 
+        "pinyin": "zhqsyjz", 
+        "question": "《站花墙》属于（ ）剧种？", 
+        "sn": "348", 
+        "answer": "A "
+      }, 
+      {
+        "A": "《宋元戏曲考》", 
+        "C": "《顾曲麈谈》", 
+        "B": "《唐戏弄》", 
+        "D": "《闲情偶寄》", 
+        "pinyin": "zgzzdybxqszzswgwdnbzz", 
+        "question": "中国最早的一部戏曲史著作是王国维的哪部著作？", 
+        "sn": "349", 
+        "answer": "A"
+      }, 
+      {
+        "A": "杂剧", 
+        "C": "大轴戏", 
+        "B": "压轴戏", 
+        "D": "多场连演的整本", 
+        "pinyin": "ltbxdysssm", 
+        "question": "连台本戏的意思是什么？", 
+        "sn": "350", 
+        "answer": "D"
+      }, 
+      {
+        "A": "程砚秋", 
+        "C": "荀慧生", 
+        "B": "尚小云", 
+        "D": "言慧珠", 
+        "pinyin": "xlbyysjzbsysdmdds", 
+        "question": "下列表演艺术家中不属于四大名旦的是（ ）？", 
+        "sn": "351", 
+        "answer": "D"
+      }, 
+      {
+        "A": "刘子薇", 
+        "C": "王荔", 
+        "B": "夏青玲", 
+        "D": "邱玲", 
+        "pinyin": "xlbyysjzedmhdzs", 
+        "question": "下列表演艺术家中二度梅获得者是（ ）？", 
+        "sn": "352", 
+        "answer": "A"
+      }, 
+      {
+        "A": "张巧珍", 
+        "C": "李雅樵", 
+        "B": "钟惠然", 
+        "D": "吴天保", 
+        "pinyin": "xlyyzshjysjds", 
+        "question": "下列演员中是汉剧艺术家的是？", 
+        "sn": "353", 
+        "answer": "D"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "陈伯华", 
+        "B": "陈素真", 
+        "D": "张君秋", 
+        "pinyin": "xlnwysdsbsyyzsf", 
+        "question": "下列哪位艺术大师不属于“宇宙三锋”？", 
+        "sn": "354", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《红灯记》", 
+        "C": "《柜中缘》", 
+        "B": "《沙家浜》", 
+        "D": "《白毛女》", 
+        "pinyin": "xljmzbsyybxds", 
+        "question": "下列剧目中不属于样板戏的是（ ）？", 
+        "sn": "355", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "余叔岩", 
+        "B": "谭鑫培", 
+        "D": "马连良", 
+        "pinyin": "xlxqbyysjznwdwhycwc", 
+        "question": "下列戏曲表演艺术家中哪位到武汉演出五次？", 
+        "sn": "356", 
+        "answer": "A"
+      }, 
+      {
+        "A": "孝感", 
+        "C": "长沙", 
+        "B": "黄冈", 
+        "D": "武汉", 
+        "pinyin": "xmtzhxqysjznljb", 
+        "question": "“戏码头”中华戏曲艺术节在哪里举办？", 
+        "sn": "357", 
+        "answer": "D"
+      }, 
+      {
+        "A": "武汉", 
+        "C": "北京", 
+        "B": "天津", 
+        "D": "成都", 
+        "pinyin": "jhjsngcsjbdysjx", 
+        "question": "“江花奖”是哪个城市举办的艺术奖项？", 
+        "sn": "358", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1996", 
+        "C": "1998", 
+        "B": "1997", 
+        "D": "1999", 
+        "pinyin": "jhjkbynyn", 
+        "question": "“江花奖”开办于哪一年？", 
+        "sn": "359", 
+        "answer": "A"
+      }, 
+      {
+        "A": "乾隆", 
+        "C": "慈禧", 
+        "B": "康熙", 
+        "D": "雍正", 
+        "pinyin": "sdhbjjycswzs", 
+        "question": "四大徽班进京演出是为（ ）祝寿？", 
+        "sn": "360", 
+        "answer": "C"
+      }, 
+      {
+        "A": "定军山", 
+        "C": "贵妃醉酒", 
+        "B": "天涯歌女", 
+        "D": "打龙袍", 
+        "pinyin": "zgdybxqdys", 
+        "question": "中国第一部戏曲电影是（ ）？", 
+        "sn": "361", 
+        "answer": "A"
+      }, 
+      {
+        "A": "牛得草", 
+        "C": "萧长华", 
+        "B": "朱世慧", 
+        "D": "刘赶山", 
+        "pinyin": "hbzmdjjcjs", 
+        "question": "湖北著名的京剧丑角是（ ）？", 
+        "sn": "362", 
+        "answer": "B"
+      }, 
+      {
+        "A": "楚剧", 
+        "C": "汉剧", 
+        "B": "京剧", 
+        "D": "豫剧", 
+        "pinyin": "xlxqjzzjwhtsds", 
+        "question": "下列戏曲剧种最具武汉特色的是（ ）？", 
+        "sn": "363", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "程长庚", 
+        "B": "余叔岩", 
+        "D": "杨小楼", 
+        "pinyin": "xlngxxbsyjjsdx", 
+        "question": "下列哪个选项不属于京剧“三大贤”？", 
+        "sn": "364", 
+        "answer": "C"
+      }, 
+      {
+        "A": "中东", 
+        "C": "可以", 
+        "B": "由求", 
+        "D": "灰堆", 
+        "pinyin": "xlxxzbsysszds", 
+        "question": "下列选项中不属于“十三辙”的是（ ）？", 
+        "sn": "365", 
+        "answer": "C"
+      }, 
+      {
+        "A": "黑色", 
+        "C": "红色", 
+        "B": "黄色 ", 
+        "D": "绿色", 
+        "pinyin": "jjbglpyyswz", 
+        "question": "京剧包公脸谱以（ ）颜色为主？", 
+        "sn": "366", 
+        "answer": "A"
+      }, 
+      {
+        "A": "太极图", 
+        "C": "江汉图", 
+        "B": "十枝梅", 
+        "D": "双教子", 
+        "pinyin": "xlhjxqgsfszszsqds", 
+        "question": "下列汉剧戏曲故事发生在商周时期的是（ ）？", 
+        "sn": "367", 
+        "answer": "A"
+      }, 
+      {
+        "A": "你一条河", 
+        "C": "大别山人", 
+        "B": "养命的儿子", 
+        "D": "秦雪梅", 
+        "pinyin": "xlcjxqgszbsyxbxdxds", 
+        "question": "下列楚剧戏曲故事中不属于新编现代戏的是（ ）？", 
+        "sn": "368", 
+        "answer": "D"
+      }, 
+      {
+        "A": "蝴蝶梦", 
+        "C": "失子记", 
+        "B": "霓裳长歌", 
+        "D": "牡丹亭", 
+        "pinyin": "xlncjmzjsdyge", 
+        "question": "下列哪出剧目中讲述的有“孤儿”？", 
+        "sn": "369", 
+        "answer": "C"
+      }, 
+      {
+        "A": "我在城楼观山", 
+        "C": "瓜不连藤不能", 
+        "B": "垒起七星灶", 
+        "D": "春秋亭外风雨暴", 
+        "pinyin": "xlnjsjjkcjdcc", 
+        "question": "下列哪句是京剧《空城计》的唱词？", 
+        "sn": "370", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "楚剧", 
+        "B": "京剧", 
+        "D": "越剧", 
+        "pinyin": "wlcdsngjzdjm", 
+        "question": "《万里茶道》是哪个剧种的剧目？", 
+        "sn": "371", 
+        "answer": "C"
+      }, 
+      {
+        "A": "生活秀", 
+        "C": "美丽人生", 
+        "B": "水上灯", 
+        "D": "三月茶香", 
+        "pinyin": "xlncxbshknrsbq", 
+        "question": "下列哪出戏不是“汉口女人”三部曲？", 
+        "sn": "372", 
+        "answer": "D"
+      }, 
+      {
+        "A": "喻老四", 
+        "C": "天成", 
+        "B": "来双扬", 
+        "D": "水文", 
+        "pinyin": "xlnywsjjshxzdrw", 
+        "question": "下列哪一位是京剧《生活秀》中的人物？", 
+        "sn": "373", 
+        "answer": "B"
+      }, 
+      {
+        "A": "沈云陔", 
+        "C": "余洪元", 
+        "B": "董瑶阶", 
+        "D": "姚长生", 
+        "pinyin": "xlnywbshjysj", 
+        "question": "下列哪一位不是汉剧艺术家？", 
+        "sn": "374", 
+        "answer": "A"
+      }, 
+      {
+        "A": "孙菊仙", 
+        "C": "谭鑫培", 
+        "B": "高百岁", 
+        "D": "李雅樵", 
+        "pinyin": "xlnwxqysjswhjxj", 
+        "question": "下列哪位戏曲艺术家是武汉江夏籍？", 
+        "sn": "375", 
+        "answer": "C"
+      }, 
+      {
+        "A": "借东风", 
+        "C": "打渔杀家", 
+        "B": "野猪林", 
+        "D": "四郎探母", 
+        "pinyin": "xlncxqcysgz", 
+        "question": "下列哪出戏取材于《三国志》？", 
+        "sn": "376", 
+        "answer": "A"
+      }, 
+      {
+        "A": "唱", 
+        "C": "做", 
+        "B": "诵", 
+        "D": "打 ", 
+        "pinyin": "xlxxngbsxqdsg", 
+        "question": "下列选项哪个不是戏曲的“四功”？", 
+        "sn": "377", 
+        "answer": "B"
+      }, 
+      {
+        "A": "唱", 
+        "C": "踢", 
+        "B": "诵", 
+        "D": "跳 ", 
+        "pinyin": "xlxxngsxqdsg", 
+        "question": "下列选项哪个是戏曲的“四功”？", 
+        "sn": "378", 
+        "answer": "A"
+      }, 
+      {
+        "A": "诵", 
+        "C": "跳 ", 
+        "B": "踢", 
+        "D": "念", 
+        "pinyin": "xlxxngsxqdsg", 
+        "question": "下列选项哪个是戏曲的“四功”？", 
+        "sn": "379", 
+        "answer": "D"
+      }, 
+      {
+        "A": "做", 
+        "C": "踢", 
+        "B": "诵", 
+        "D": "跳 ", 
+        "pinyin": "xlxxngsxqdsg", 
+        "question": "下列选项哪个是戏曲的“四功”？", 
+        "sn": "380", 
+        "answer": "A"
+      }, 
+      {
+        "A": "踢", 
+        "C": "打", 
+        "B": "跳 ", 
+        "D": "诵", 
+        "pinyin": "xlxxngsxqdsg", 
+        "question": "下列选项哪个是戏曲的“四功”？", 
+        "sn": "381", 
+        "answer": "C"
+      }, 
+      {
+        "A": "手", 
+        "C": "身", 
+        "B": "眼", 
+        "D": "腿", 
+        "pinyin": "xlxxngbsxqdwf", 
+        "question": "下列选项哪个不是戏曲的“五法”？", 
+        "sn": "382", 
+        "answer": "D"
+      }, 
+      {
+        "A": "南剧", 
+        "C": "上党梆子", 
+        "B": "婺剧", 
+        "D": "昆曲", 
+        "pinyin": "bcwbxzzbxzsdjzs", 
+        "question": "被称为“百戏之祖、百戏之师”的剧种是？", 
+        "sn": "383", 
+        "answer": "D"
+      }, 
+      {
+        "A": "豫剧", 
+        "C": "京剧", 
+        "B": "汉剧", 
+        "D": "粤剧", 
+        "pinyin": "bcwdfgjdjzs", 
+        "question": "被称为“东方歌剧”的剧种是？", 
+        "sn": "384", 
+        "answer": "C"
+      }, 
+      {
+        "A": "中国人口文化", 
+        "C": "五个一工程奖", 
+        "B": "曹禺戏剧文学", 
+        "D": "戏剧牡丹花奖", 
+        "pinyin": "dbzgxjczzgszdjxs", 
+        "question": "代表中国戏剧创作最高水准的奖项是？", 
+        "sn": "385", 
+        "answer": "B"
+      }, 
+      {
+        "A": "血花大世界", 
+        "C": "新市场", 
+        "B": "民乐园", 
+        "D": "民众园", 
+        "pinyin": "xmnxxxbshkmzlydjdmc", 
+        "question": "下面哪些选项不是汉口民众乐园的阶段名称？", 
+        "sn": "386", 
+        "answer": "D"
+      }, 
+      {
+        "A": "中国戏剧梅花", 
+        "C": "中国戏剧菊花", 
+        "B": "中国戏剧牡丹", 
+        "D": "中国戏剧江花奖", 
+        "pinyin": "dbzgxjbyyszgszdjxs", 
+        "question": "代表中国戏剧表演艺术最高水准的奖项是？", 
+        "sn": "387", 
+        "answer": "A"
+      }, 
+      {
+        "A": "李渔", 
+        "C": "汤显祖", 
+        "B": "郑光祖", 
+        "D": "樊粹庭", 
+        "pinyin": "xlxxzngsyqsdj", 
+        "question": "下列选项中哪个是元曲四大家（ ）？", 
+        "sn": "388", 
+        "answer": "B"
+      }, 
+      {
+        "A": "罗怀臻", 
+        "C": "樊粹庭", 
+        "B": "汤显祖", 
+        "D": "马致远", 
+        "pinyin": "xlxxzngsyqsdj", 
+        "question": "下列选项中哪个是元曲四大家（ ）？", 
+        "sn": "389", 
+        "answer": "D"
+      }, 
+      {
+        "A": "汤显祖", 
+        "C": "关汉卿", 
+        "B": "樊粹庭", 
+        "D": "罗怀臻", 
+        "pinyin": "xlxxzngsyqsdj", 
+        "question": "下列选项中哪个是元曲四大家（ ）？", 
+        "sn": "390", 
+        "answer": "C"
+      }, 
+      {
+        "A": "白朴", 
+        "C": "罗怀臻", 
+        "B": "樊粹庭", 
+        "D": "汤显祖", 
+        "pinyin": "xlxxzngsyqsdj", 
+        "question": "下列选项中哪个是元曲四大家（ ）？", 
+        "sn": "391", 
+        "answer": "A"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "李渔", 
+        "B": "汤显祖", 
+        "D": "白朴", 
+        "pinyin": "xlxxzbsyqsdjds", 
+        "question": "下列选项中不是元曲四大家的是（ ）？", 
+        "sn": "392", 
+        "answer": "C"
+      }, 
+      {
+        "A": "汤显祖", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "mdtdzzs", 
+        "question": "《牡丹亭》的作者是（ ）？", 
+        "sn": "393", 
+        "answer": "A"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "李渔", 
+        "B": "汤显祖", 
+        "D": "白朴", 
+        "pinyin": "hdjdzzs", 
+        "question": "《邯郸记》的作者是（ ）？", 
+        "sn": "394", 
+        "answer": "B"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "汤显祖", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "nkjdzzs", 
+        "question": "《南柯记》的作者是（ ）？", 
+        "sn": "395", 
+        "answer": "C"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "王实甫", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "xxjdzzs", 
+        "question": "《西厢记》的作者是（ ）？", 
+        "sn": "396", 
+        "answer": "C"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "汤显祖", 
+        "pinyin": "zcjdzzs", 
+        "question": "《紫钗记》的作者是（ ）？", 
+        "sn": "397", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《牡丹亭》", 
+        "C": "《拜月亭》", 
+        "B": "《邯郸记》", 
+        "D": "《紫钗记》", 
+        "pinyin": "xlzpzbsyymtsmds", 
+        "question": "下列作品中不属于“玉茗堂四梦”的是（ ）？", 
+        "sn": "398", 
+        "answer": "C"
+      }, 
+      {
+        "A": "汤显祖", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "bywdfdssbydjzjs", 
+        "question": "被誉为“东方的莎士比亚”的剧作家是（ ）？", 
+        "sn": "399", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汤显祖", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "yqzymydjzjs", 
+        "question": "有“曲状元”美誉的剧作家是（ ）？", 
+        "sn": "400", 
+        "answer": "B"
+      }, 
+      {
+        "A": "汤显祖", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "高明", 
+        "pinyin": "bywqzdjzjs", 
+        "question": "被誉为“曲祖”的剧作家是（ ）？", 
+        "sn": "401", 
+        "answer": "D"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "李渔", 
+        "B": "汤显祖", 
+        "D": "白朴", 
+        "pinyin": "bcwyqsdjzsdjzjs", 
+        "question": "被称为“元曲四大家”之首的剧作家是（ ）？", 
+        "sn": "402", 
+        "answer": "A"
+      }, 
+      {
+        "A": "关汉卿", 
+        "C": "李渔", 
+        "B": "马致远", 
+        "D": "白朴", 
+        "pinyin": "qtmsdzzs", 
+        "question": "《墙头马上》的作者是（ ）？", 
+        "sn": "403", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《琵琶记》", 
+        "C": "《拜月记》", 
+        "B": "《西厢记》", 
+        "D": "《邯郸记》", 
+        "pinyin": "dbyzjzgcjdxqzps", 
+        "question": "代表元杂剧最高成就的戏曲作品是（ ）？", 
+        "sn": "404", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《琵琶记》", 
+        "C": "《拜月记》", 
+        "B": "《荆钗记》", 
+        "D": "《邯郸记》", 
+        "pinyin": "bcwnqzzdxqzps", 
+        "question": "被称为“南曲之宗”的戏曲作品是（ ）？", 
+        "sn": "405", 
+        "answer": "A"
+      }, 
+      {
+        "A": "《十五贯》", 
+        "C": "《拜月记》", 
+        "B": "《牡丹亭》", 
+        "D": "《窦娥冤》", 
+        "pinyin": "zelcycxjhlygjzzcxs", 
+        "question": "周恩来称“一出戏救活了一个剧种”，这出戏是（ ）？", 
+        "sn": "406", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1926", 
+        "C": "1949", 
+        "B": "1928", 
+        "D": "1978", 
+        "pinyin": "cjzsdmdsjs", 
+        "question": "楚剧正式定名的时间是（ ）？", 
+        "sn": "407", 
+        "answer": "A"
+      }, 
+      {
+        "A": "黄陂孝感", 
+        "C": "武汉", 
+        "B": "恩施", 
+        "D": "荆州", 
+        "pinyin": "cjfyy", 
+        "question": "楚剧发源于（ ）？", 
+        "sn": "408", 
+        "answer": "A"
+      }, 
+      {
+        "A": "楚调", 
+        "C": "黄孝花鼓", 
+        "B": "汉调", 
+        "D": "楚天小调", 
+        "pinyin": "cjzzdjcs", 
+        "question": "楚剧最早的简称是（ ）？", 
+        "sn": "409", 
+        "answer": "C"
+      }, 
+      {
+        "A": "民间性", 
+        "C": "高雅性", 
+        "B": "生活化", 
+        "D": "通俗化", 
+        "pinyin": "xlngbscjdtd", 
+        "question": "下列哪个不是楚剧的特点？", 
+        "sn": "410", 
+        "answer": "C "
+      }, 
+      {
+        "A": "假发饰", 
+        "C": "头盔", 
+        "B": "亮片", 
+        "D": "脸谱", 
+        "pinyin": "cjzbsdsps", 
+        "question": "楚剧装扮上的水片是（ ）？", 
+        "sn": "411", 
+        "answer": "A"
+      }, 
+      {
+        "A": "文场和武场", 
+        "C": "内场和外场", 
+        "B": "静场和动场", 
+        "D": "武打场", 
+        "pinyin": "cjdbzkyfw", 
+        "question": "楚剧的伴奏可以分为（ ）？", 
+        "sn": "412", 
+        "answer": "A"
+      }, 
+      {
+        "A": "文生戏", 
+        "C": "乳生戏", 
+        "B": "官生戏", 
+        "D": "三小戏", 
+        "pinyin": "xlnyzbsxsx", 
+        "question": "下列哪一种不是小生戏？", 
+        "sn": "413", 
+        "answer": "D"
+      }, 
+      {
+        "A": "轻盈活泼", 
+        "C": "洒脱爽利", 
+        "B": "大方稳重", 
+        "D": "唯美柔和", 
+        "pinyin": "cjqydsdtd", 
+        "question": "楚剧青衣的身段特点（ ）？", 
+        "sn": "414", 
+        "answer": "B"
+      }, 
+      {
+        "A": "高月楼", 
+        "C": "罗玉华", 
+        "B": "李雅樵", 
+        "D": "黄楚才", 
+        "pinyin": "xlnwbscjzmxs", 
+        "question": "下列哪位不是楚剧著名小生？", 
+        "sn": "415", 
+        "answer": "C"
+      }, 
+      {
+        "A": "拖平台", 
+        "C": "躲忙", 
+        "B": "干饭戏", 
+        "D": "贺岁", 
+        "pinyin": "xmnxbscjdhh", 
+        "question": "下面哪些不是楚剧的行话？", 
+        "sn": "416", 
+        "answer": "D"
+      }, 
+      {
+        "A": "吸引观众", 
+        "C": "祭神", 
+        "B": "喊醒演员", 
+        "D": "打彩", 
+        "pinyin": "cjycxszdntdzys", 
+        "question": "楚剧演出习俗中“打闹台”的作用是（ ）？", 
+        "sn": "417", 
+        "answer": "A"
+      }, 
+      {
+        "A": "中秋", 
+        "C": "二月二", 
+        "B": "元旦", 
+        "D": "正月十五", 
+        "pinyin": "cjycxszcdxybzsmsh", 
+        "question": "楚剧演出习俗中“唱灯戏”一般在什么时候？", 
+        "sn": "418", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《九锡宫》", 
+        "C": "《柜中缘》", 
+        "B": "《大赐福》", 
+        "D": "《郭子仪拜寿》", 
+        "pinyin": "xlngjmbscjdsx", 
+        "question": "下列哪个剧目不是楚剧的“寿戏”？", 
+        "sn": "419", 
+        "answer": "C"
+      }, 
+      {
+        "A": "李百川", 
+        "C": "李金和", 
+        "B": "李雅樵", 
+        "D": "杨少华", 
+        "pinyin": "xmngyyczdxb", 
+        "question": "下面哪个演员出自灯戏班？", 
+        "sn": "420", 
+        "answer": "A"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "旦", 
+        "D": "武生", 
+        "pinyin": "cjysjsygssmhd", 
+        "question": "楚剧艺术家沈云陔是什么行当？", 
+        "sn": "421", 
+        "answer": "B"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "青衣", 
+        "D": "武生", 
+        "pinyin": "cjysjlpsssmhd", 
+        "question": "楚剧艺术家李品山是什么行当？", 
+        "sn": "422", 
+        "answer": "B"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "老旦", 
+        "D": "武生", 
+        "pinyin": "cjysjtdassmhd", 
+        "question": "楚剧艺术家陶德安是什么行当？", 
+        "sn": "423", 
+        "answer": "B"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "老旦", 
+        "D": "武生", 
+        "pinyin": "cjysjgylssmhd", 
+        "question": "楚剧艺术家高月楼是什么行当？", 
+        "sn": "424", 
+        "answer": "A"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "老旦", 
+        "D": "武生", 
+        "pinyin": "cjysjxjxssmhd", 
+        "question": "楚剧艺术家熊剑啸是什么行当？", 
+        "sn": "425", 
+        "answer": "C"
+      }, 
+      {
+        "A": "生", 
+        "C": "丑", 
+        "B": "净", 
+        "D": "武生", 
+        "pinyin": "cjysjgslssmhd", 
+        "question": "楚剧艺术家高少楼是什么行当？", 
+        "sn": "426", 
+        "answer": "B"
+      }, 
+      {
+        "A": "青衣", 
+        "C": "老生", 
+        "B": "老旦", 
+        "D": "小丑", 
+        "pinyin": "cjzqszyycydddzxhxsxdhdsxx", 
+        "question": "楚剧早期是只演一丑一旦的对子戏，或小生、小旦和（ ）的三小戏。", 
+        "sn": "427", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《紫金钗》", 
+        "C": "《牡丹亭》", 
+        "B": "《拜月记》", 
+        "D": "《窦娥冤》", 
+        "pinyin": "cjgmyzztx", 
+        "question": "楚剧《葛麻》源自传统戏（ ）？", 
+        "sn": "428", 
+        "answer": "A"
+      }, 
+      {
+        "A": "单折戏", 
+        "C": "独幕剧", 
+        "B": "全本戏", 
+        "D": "多幕剧", 
+        "pinyin": "cjsysctjmlzyyzd", 
+        "question": "楚剧《送友》是传统剧目《梁祝姻缘》中的（ ）？", 
+        "sn": "429", 
+        "answer": "A"
+      }, 
+      {
+        "A": "桃园界", 
+        "C": "艺术界", 
+        "B": "梨园界", 
+        "D": "曲界", 
+        "pinyin": "xqjjcw", 
+        "question": "戏曲界简称为（ ）？", 
+        "sn": "430", 
+        "answer": "B"
+      }, 
+      {
+        "A": "桃园世家", 
+        "C": "艺术世家", 
+        "B": "梨园世家", 
+        "D": "曲艺世家", 
+        "pinyin": "jdcsxqysdjtcw", 
+        "question": "几代从事戏曲艺术的家庭称为（ ）？", 
+        "sn": "431", 
+        "answer": "B"
+      }, 
+      {
+        "A": "桃园子弟", 
+        "C": "艺术子弟", 
+        "B": "梨园子弟", 
+        "D": "曲艺子弟", 
+        "pinyin": "rmcbxqyycw", 
+        "question": "人们常把戏曲演员称为（ ）？", 
+        "sn": "432", 
+        "answer": "B"
+      }, 
+      {
+        "A": "昆曲", 
+        "C": "京剧", 
+        "B": "汉剧", 
+        "D": "评剧", 
+        "pinyin": "bcwgjgcdjzs", 
+        "question": "被称为“国剧”“国粹”的剧种是（ ）？", 
+        "sn": "433", 
+        "answer": "C"
+      }, 
+      {
+        "A": "南京", 
+        "C": "天津", 
+        "B": "广州", 
+        "D": "武汉", 
+        "pinyin": "xlngcsbcwqgxqsdj", 
+        "question": "下列哪个城市被称为全国戏曲三鼎甲？", 
+        "sn": "434", 
+        "answer": "D"
+      }, 
+      {
+        "A": "北京", 
+        "C": "天津", 
+        "B": "广州", 
+        "D": "南京", 
+        "pinyin": "xlngcsbcwqgxqsdj", 
+        "question": "下列哪个城市被称为全国戏曲三鼎甲？", 
+        "sn": "435", 
+        "answer": "A"
+      }, 
+      {
+        "A": "南京", 
+        "C": "天津", 
+        "B": "上海", 
+        "D": "广州", 
+        "pinyin": "xlngcsbcwqgxqsdj", 
+        "question": "下列哪个城市被称为全国戏曲三鼎甲？", 
+        "sn": "436", 
+        "answer": "B"
+      }, 
+      {
+        "A": "北京", 
+        "C": "上海", 
+        "B": "广州", 
+        "D": "武汉", 
+        "pinyin": "xlngcsbsqgxqsdj", 
+        "question": "下列哪个城市不是全国戏曲三鼎甲？", 
+        "sn": "437", 
+        "answer": "B"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "美成大戏院", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "438", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "长乐戏苑", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "439", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "天声戏院", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "440", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "共和升平楼", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "441", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "满春戏院", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "442", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅兰芳大剧院", 
+        "C": "汉口大舞台", 
+        "B": "天蟾舞台", 
+        "D": "中华曲苑", 
+        "pinyin": "xljcwywhds", 
+        "question": "下列剧场位于武汉的是（ ）？", 
+        "sn": "443", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《梨花颂》", 
+        "C": "《借东风》", 
+        "B": "《窦娥冤》", 
+        "D": "《东风破》", 
+        "pinyin": "xlsyjgds", 
+        "question": "下列属于京歌的是（ ）？", 
+        "sn": "444", 
+        "answer": "A"
+      }, 
+      {
+        "A": "胡琴", 
+        "C": "大锣", 
+        "B": "琵琶", 
+        "D": "鼓板", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“文场四大件”的是（ ）？", 
+        "sn": "445", 
+        "answer": "A"
+      }, 
+      {
+        "A": "京二胡", 
+        "C": "大锣", 
+        "B": "琵琶", 
+        "D": "鼓板", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“文场四大件”的是（ ）？", 
+        "sn": "446", 
+        "answer": "A"
+      }, 
+      {
+        "A": "月琴", 
+        "C": "大锣", 
+        "B": "琵琶", 
+        "D": "鼓板", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“文场四大件”的是（ ）？", 
+        "sn": "447", 
+        "answer": "A"
+      }, 
+      {
+        "A": "弦子", 
+        "C": "大锣", 
+        "B": "琵琶", 
+        "D": "鼓板", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“文场四大件”的是（ ）？", 
+        "sn": "448", 
+        "answer": "A"
+      }, 
+      {
+        "A": "弦子", 
+        "C": "钢琴", 
+        "B": "琵琶", 
+        "D": "鼓板", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“武场四大件”的是（ ）？", 
+        "sn": "449", 
+        "answer": "D"
+      }, 
+      {
+        "A": "弦子", 
+        "C": "钢琴", 
+        "B": "琵琶", 
+        "D": "小锣", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“武场四大件”的是（ ）？", 
+        "sn": "450", 
+        "answer": "D"
+      }, 
+      {
+        "A": "弦子", 
+        "C": "钢琴", 
+        "B": "琵琶", 
+        "D": "大锣", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“武场四大件”的是（ ）？", 
+        "sn": "451", 
+        "answer": "D"
+      }, 
+      {
+        "A": "弦子", 
+        "C": "钢琴", 
+        "B": "琵琶", 
+        "D": "铙钹", 
+        "pinyin": "xlxxzsywcsdjds", 
+        "question": "下列选项中属于“武场四大件”的是（ ）？", 
+        "sn": "452", 
+        "answer": "D"
+      }, 
+      {
+        "A": "演员化妆后", 
+        "C": "机灵幽默", 
+        "B": "上滑稽可笑", 
+        "D": "能说能跳", 
+        "pinyin": "xqyyfmdcszsm", 
+        "question": "戏曲演员粉墨登场是指什么？", 
+        "sn": "453", 
+        "answer": "A"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyyhsds", 
+        "question": "京剧戏曲人物的脸谱主要用红色的是（ ）？", 
+        "sn": "454", 
+        "answer": "B"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyyhsds", 
+        "question": "京剧戏曲人物的脸谱主要用黑色的是（ ）？", 
+        "sn": "455", 
+        "answer": "D"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyybsds", 
+        "question": "京剧戏曲人物的脸谱主要用白色的是（ ）？", 
+        "sn": "456", 
+        "answer": "A"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyylsds", 
+        "question": "京剧戏曲人物的脸谱主要用蓝色的是（ ）？", 
+        "sn": "457", 
+        "answer": "C"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "荆轲", 
+        "pinyin": "jjxqrwdlpzyyzsds", 
+        "question": "京剧戏曲人物的脸谱主要用紫色的是（ ）？", 
+        "sn": "458", 
+        "answer": "D"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "关羽", 
+        "D": "典韦", 
+        "pinyin": "jjxqrwdlpzyyhsds", 
+        "question": "京剧戏曲人物的脸谱主要用黄色的是（ ）？", 
+        "sn": "459", 
+        "answer": "D"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "单雄信", 
+        "B": "关羽", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyylsds", 
+        "question": "京剧戏曲人物的脸谱主要用绿色的是（ ）？", 
+        "sn": "460", 
+        "answer": "C"
+      }, 
+      {
+        "A": "曹操", 
+        "C": "窦尔敦", 
+        "B": "二郎神", 
+        "D": "包公", 
+        "pinyin": "jjxqrwdlpzyyjysds", 
+        "question": "京剧戏曲人物的脸谱主要用金银色的是（ ）？", 
+        "sn": "461", 
+        "answer": "B"
+      }, 
+      {
+        "A": "演员", 
+        "C": "道具", 
+        "B": "舞台", 
+        "D": "戏楼", 
+        "pinyin": "xbhhzqmsz", 
+        "question": "戏班行话中“砌末”是指（ ）？", 
+        "sn": "462", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《宇宙锋》", 
+        "C": "《贵妃醉酒》", 
+        "B": "《霸王别姬》", 
+        "D": "《锁麟囊》", 
+        "pinyin": "xljmzbsmpdbzds", 
+        "question": "下列剧目中不是“梅派”代表做的是", 
+        "sn": "463", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《锁麟囊》", 
+        "C": "《荒山泪》", 
+        "B": "《六月雪》", 
+        "D": "《二度梅》", 
+        "pinyin": "xljmzbscpdbzds", 
+        "question": "下列剧目中不是“程派”代表做的是（ ）？", 
+        "sn": "464", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《失子惊疯》", 
+        "C": "《昭君出塞》", 
+        "B": "《 双阳公主》", 
+        "D": "《人欢马叫》", 
+        "pinyin": "xljmzbsspdbzds", 
+        "question": "下列剧目中不是“尚派”代表做的是（ ）？", 
+        "sn": "465", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《红娘》", 
+        "C": "《辛安驿》", 
+        "B": "《霍小玉》", 
+        "D": "《蝴蝶夫人》", 
+        "pinyin": "xljmzbsxpdbzds", 
+        "question": "下列剧目中不是“荀派”代表做的是（ ）？", 
+        "sn": "466", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《宇宙锋》", 
+        "C": "《二度梅》", 
+        "B": "《柜中缘》", 
+        "D": "《六月雪》", 
+        "pinyin": "xljmzbshjcpdbzds", 
+        "question": "下列剧目中不是汉剧“陈派”代表做的是（ ）？", 
+        "sn": "467", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《花木兰》", 
+        "C": "《人欢马叫》", 
+        "B": "《拷红》", 
+        "D": " 《柜中缘》", 
+        "pinyin": "xljmzbsyjcpdbzds", 
+        "question": "下列剧目中不是豫剧“常派”代表做的是（ ）？", 
+        "sn": "468", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《搜书院》", 
+        "C": "《关汉卿》", 
+        "B": "《蝴蝶夫人》", 
+        "D": "《锁麟囊》", 
+        "pinyin": "xljmzbsyjhpdbzds", 
+        "question": "下列剧目中不是粤剧“红派”代表做的是（ ）？", 
+        "sn": "469", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《祥林嫂》", 
+        "C": "《白蛇传》", 
+        "B": "《梁山伯与祝英台》", 
+        "D": "《贵妃醉酒》", 
+        "pinyin": "xljmzbsyjypdbzds", 
+        "question": "下列剧目中不是越剧“袁派”代表做的是（ ）？", 
+        "sn": "470", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《天仙配》", 
+        "C": "《打金枝》", 
+        "B": "《女驸马》", 
+        "D": "《打渔杀家》", 
+        "pinyin": "xljmzbshmxypdbzds", 
+        "question": "下列剧目中不是黄梅戏“严派”代表做的是（ ）？", 
+        "sn": "471", 
+        "answer": "D"
+      }, 
+      {
+        "A": "高百岁", 
+        "C": "关正明", 
+        "B": "高盛麟", 
+        "D": "张君秋", 
+        "pinyin": "xlbyysjbsywhjjyds", 
+        "question": "下列表演艺术家不属于武汉京剧院的是（ ）？", 
+        "sn": "472", 
+        "answer": "D"
+      }, 
+      {
+        "A": "郭玉琨", 
+        "C": "陈瑶华", 
+        "B": "杨菊苹", 
+        "D": "李胜素", 
+        "pinyin": "xlbyysjbsywhjjyds", 
+        "question": "下列表演艺术家不属于武汉京剧院的是（ ）？", 
+        "sn": "473", 
+        "answer": "D"
+      }, 
+      {
+        "A": "陈鹤峰", 
+        "C": "关正明", 
+        "B": "高百岁", 
+        "D": "周信芳", 
+        "pinyin": "xlbyysjbsywhjjyds", 
+        "question": "下列表演艺术家不属于武汉京剧院的是（ ）？", 
+        "sn": "474", 
+        "answer": "D"
+      }, 
+      {
+        "A": "李蔷华", 
+        "C": "王婉华", 
+        "B": "高维廉", 
+        "D": "孟广禄", 
+        "pinyin": "xlbyysjbsywhjjyds", 
+        "question": "下列表演艺术家不属于武汉京剧院的是（ ）？", 
+        "sn": "475", 
+        "answer": "D"
+      }, 
+      {
+        "A": "陈鹤峰", 
+        "C": "高盛麟", 
+        "B": "杨菊苹", 
+        "D": "马连良", 
+        "pinyin": "xlbyysjbsywhjjyds", 
+        "question": "下列表演艺术家不属于武汉京剧院的是（ ）？", 
+        "sn": "476", 
+        "answer": "D"
+      }, 
+      {
+        "A": "李百川", 
+        "C": "李雅樵", 
+        "B": "沈云陔", 
+        "D": "马金凤", 
+        "pinyin": "xlbyysjbsywhcjyds", 
+        "question": "下列表演艺术家不属于武汉楚剧院的是（ ）？", 
+        "sn": "477", 
+        "answer": "D"
+      }, 
+      {
+        "A": "于盛乐", 
+        "C": "关啸彬", 
+        "B": "夏青玲", 
+        "D": "李树建", 
+        "pinyin": "xlbyysjbsywhcjyds", 
+        "question": "下列表演艺术家不属于武汉楚剧院的是（ ）？", 
+        "sn": "478", 
+        "answer": "D"
+      }, 
+      {
+        "A": "张光明", 
+        "C": "沈云陔", 
+        "B": "张一平", 
+        "D": "茅威涛", 
+        "pinyin": "xlbyysjbsywhcjyds", 
+        "question": "下列表演艺术家不属于武汉楚剧院的是（ ）？", 
+        "sn": "479", 
+        "answer": "D"
+      }, 
+      {
+        "A": "萧长胜", 
+        "C": "李彩云", 
+        "B": "余洪元", 
+        "D": "裴艳玲", 
+        "pinyin": "xlyywhjbyysjds", 
+        "question": "下列演员为汉剧表演艺术家的是（ ）？", 
+        "sn": "480", 
+        "answer": "D"
+      }, 
+      {
+        "A": "李春森", 
+        "C": "吴天保", 
+        "B": "董瑶阶", 
+        "D": "郭小庄", 
+        "pinyin": "xlyywhjbyysjds", 
+        "question": "下列演员为汉剧表演艺术家的是（ ）？", 
+        "sn": "481", 
+        "answer": "D"
+      }, 
+      {
+        "A": "尹春保", 
+        "C": "胡和颜", 
+        "B": "陈伯华", 
+        "D": "梅兰芳", 
+        "pinyin": "xlyywhjbyysjds", 
+        "question": "下列演员为汉剧表演艺术家的是（ ）？", 
+        "sn": "482", 
+        "answer": "D"
+      }, 
+      {
+        "A": "邱玲", 
+        "C": "余洪元", 
+        "B": "王荔", 
+        "D": "史依弘", 
+        "pinyin": "xlyywhjbyysjds", 
+        "question": "下列演员为汉剧表演艺术家的是（ ）？", 
+        "sn": "483", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《三寸金莲》", 
+        "C": "《生活秀》", 
+        "B": "《贵妇还乡》", 
+        "D": "《二堂舍子》", 
+        "pinyin": "xljjjmzsyhknrsbqds", 
+        "question": "下列京剧剧目中属于“汉口女人三部曲”的是？", 
+        "sn": "484", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《三寸金莲》", 
+        "C": "《贵妇还乡》", 
+        "B": "《水上灯》", 
+        "D": "《二堂舍子》", 
+        "pinyin": "xljjjmzsyhknrsbqds", 
+        "question": "下列京剧剧目中属于“汉口女人三部曲”的是？", 
+        "sn": "485", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《三寸金莲》", 
+        "C": "《美丽人生》", 
+        "B": "《贵妇还乡》", 
+        "D": "《二堂舍子》", 
+        "pinyin": "xljjjmzsyhknrsbqds", 
+        "question": "下列京剧剧目中属于“汉口女人三部曲”的是？", 
+        "sn": "486", 
+        "answer": "C"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "麟派", 
+        "B": "程派", 
+        "D": "荀派", 
+        "pinyin": "jjbyysjgbssynglp", 
+        "question": "京剧表演艺术家高百岁属于哪个流派？", 
+        "sn": "487", 
+        "answer": "C"
+      }, 
+      {
+        "A": "高百岁", 
+        "C": "高盛麟", 
+        "B": "余叔岩", 
+        "D": "关正明", 
+        "pinyin": "yhggmydjjbyysjs", 
+        "question": "有“活关公”美誉的京剧表演艺术家是（ ）？", 
+        "sn": "488", 
+        "answer": "C"
+      }, 
+      {
+        "A": "谭鑫培", 
+        "C": "谭嗣同", 
+        "B": "谭咏麟", 
+        "D": "谭正岩", 
+        "pinyin": "wsbxtdtsznwysj", 
+        "question": "“无生不学谭”的谭是指哪位艺术家？", 
+        "sn": "489", 
+        "answer": "A"
+      }, 
+      {
+        "A": "陈派", 
+        "C": "余派", 
+        "B": "张派", 
+        "D": "谭派", 
+        "pinyin": "jjssdyglslps", 
+        "question": "京剧史上第一个老生流派是（ ）？", 
+        "sn": "490", 
+        "answer": "D"
+      }, 
+      {
+        "A": "杨家将故事", 
+        "C": "水浒传故事", 
+        "B": "西游记故事", 
+        "D": "岳飞故事", 
+        "pinyin": "jjsltmqcy", 
+        "question": "京剧《四郎探母》取材于（ ）？", 
+        "sn": "491", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1", 
+        "C": "3", 
+        "B": "2", 
+        "D": "4", 
+        "pinyin": "jjyylzwhdjcmhj", 
+        "question": "京剧演员刘子薇获得几次梅花奖？", 
+        "sn": "492", 
+        "answer": "B"
+      }, 
+      {
+        "A": "楚调", 
+        "C": "汉调", 
+        "B": "楚腔", 
+        "D": "荆调", 
+        "pinyin": "xlxxzbshjcymds", 
+        "question": "下列选项中不是汉剧曾用名的是（ ）？", 
+        "sn": "493", 
+        "answer": "D"
+      }, 
+      {
+        "A": "楚剧", 
+        "C": "二黄", 
+        "B": "西皮", 
+        "D": "楚调", 
+        "pinyin": "xlxxzshjcymds", 
+        "question": "下列选项中是汉剧曾用名的是（ ）？", 
+        "sn": "494", 
+        "answer": "D"
+      }, 
+      {
+        "A": "楚腔", 
+        "C": "西皮", 
+        "B": "楚剧", 
+        "D": "二黄", 
+        "pinyin": "xlxxzshjcymds", 
+        "question": "下列选项中是汉剧曾用名的是（ ）？", 
+        "sn": "495", 
+        "answer": "A"
+      }, 
+      {
+        "A": "汉调", 
+        "C": "西皮", 
+        "B": "楚剧", 
+        "D": "二黄", 
+        "pinyin": "xlxxzshjcymds", 
+        "question": "下列选项中是汉剧曾用名的是（ ）？", 
+        "sn": "496", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1911", 
+        "C": "1785", 
+        "B": "1915", 
+        "D": "1912", 
+        "pinyin": "hjzsgchjdsjs", 
+        "question": "汉剧正式改称“汉剧”的时间是（ ）？", 
+        "sn": "497", 
+        "answer": "D"
+      }, 
+      {
+        "A": "2005", 
+        "C": "2006", 
+        "B": "2009", 
+        "D": "2007", 
+        "pinyin": "hjlrspgjjfwzwhycbhmlsnyn", 
+        "question": "汉剧列入首批国家级非物质文化遗产保护名录是哪一年？", 
+        "sn": "498", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《兴汉图》", 
+        "C": "《李陵碑》", 
+        "B": "《白帝城》", 
+        "D": "《宇宙锋》", 
+        "pinyin": "xljmzbsyhydbjmds", 
+        "question": "下列剧目中不是余洪元代表剧目的是（ ）？", 
+        "sn": "499", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "陈伯华", 
+        "D": "李彩云", 
+        "pinyin": "bywhlbdhjysjs", 
+        "question": "被誉为“活刘备”的汉剧艺术家是（ ）？", 
+        "sn": "500", 
+        "answer": "C"
+      }, 
+      {
+        "A": "余洪元", 
+        "C": "李彩云", 
+        "B": "陈伯华", 
+        "D": "周信芳", 
+        "pinyin": "hjypdcsrs", 
+        "question": "汉剧“余派”的创始人是（ ）？", 
+        "sn": "501", 
+        "answer": "A"
+      }, 
+      {
+        "A": "水浒戏", 
+        "C": "岳飞戏", 
+        "B": "三国戏", 
+        "D": "神话戏", 
+        "pinyin": "hjjmzngtcdslzff", 
+        "question": "汉剧剧目中哪个题材的数量最丰富？", 
+        "sn": "502", 
+        "answer": "B"
+      }, 
+      {
+        "A": "余洪元", 
+        "C": "李彩云", 
+        "B": "陈伯华", 
+        "D": "吴天保", 
+        "pinyin": "hjwpdcsrs", 
+        "question": "汉剧“吴派”的创始人是（ ）？", 
+        "sn": "503", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《兴汉图》", 
+        "C": "《李陵碑》", 
+        "B": "《白帝城》", 
+        "D": "《辕门斩子》", 
+        "pinyin": "wtbddbjms", 
+        "question": "吴天保的代表剧目是（ ）？", 
+        "sn": "504", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "陈伯华", 
+        "D": "吴天保", 
+        "pinyin": "xlysjzshjdxbyysjds", 
+        "question": "下列艺术家中是汉剧旦行表演艺术家的是（ ）？", 
+        "sn": "505", 
+        "answer": "B"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "吴天保", 
+        "pinyin": "xlysjzshjdxbyysjds", 
+        "question": "下列艺术家中是汉剧旦行表演艺术家的是（ ）？", 
+        "sn": "506", 
+        "answer": "C"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "李春森", 
+        "pinyin": "xlysjzshjcxbyysjds", 
+        "question": "下列艺术家中是汉剧丑行表演艺术家的是（ ）？", 
+        "sn": "507", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "李罗克", 
+        "pinyin": "xlysjzshjcxbyysjds", 
+        "question": "下列艺术家中是汉剧丑行表演艺术家的是（ ）？", 
+        "sn": "508", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "罗敢生", 
+        "pinyin": "xlysjzshjjxbyysjds", 
+        "question": "下列艺术家中是汉剧净行表演艺术家的是（ ）？", 
+        "sn": "509", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "郑万年", 
+        "pinyin": "xlysjzshjjxbyysjds", 
+        "question": "下列艺术家中是汉剧净行表演艺术家的是（ ）？", 
+        "sn": "510", 
+        "answer": "D"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "郑万年", 
+        "pinyin": "xlysjzshjmxbyysjds", 
+        "question": "下列艺术家中是汉剧末行表演艺术家的是（ ）？", 
+        "sn": "511", 
+        "answer": "C"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "周天栋", 
+        "pinyin": "xlysjzshjwhbyysjds", 
+        "question": "下列艺术家中是汉剧外行表演艺术家的是（ ）？", 
+        "sn": "512", 
+        "answer": "D"
+      }, 
+      {
+        "A": "黄双喜", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "周天栋", 
+        "pinyin": "xlysjzshjwhbyysjds", 
+        "question": "下列艺术家中是汉剧外行表演艺术家的是（ ）？", 
+        "sn": "513", 
+        "answer": "A"
+      }, 
+      {
+        "A": "李四立", 
+        "C": "余洪元", 
+        "B": "李彩云", 
+        "D": "周天栋", 
+        "pinyin": "xlysjzshjwhbyysjds", 
+        "question": "下列艺术家中是汉剧外行表演艺术家的是（ ）？", 
+        "sn": "514", 
+        "answer": "A"
+      }, 
+      {
+        "A": "李四立", 
+        "C": "余洪元", 
+        "B": "董瑶阶", 
+        "D": "周天栋", 
+        "pinyin": "xlysjzshjtdxbyysjds", 
+        "question": "下列艺术家中是汉剧贴旦行表演艺术家的是（ ）？", 
+        "sn": "515", 
+        "answer": "B"
+      }, 
+      {
+        "A": "李四立", 
+        "C": "余洪元", 
+        "B": "万盏灯", 
+        "D": "周天栋", 
+        "pinyin": "xlysjzshjtxbyysjds", 
+        "question": "下列艺术家中是汉剧贴行表演艺术家的是（ ）？", 
+        "sn": "516", 
+        "answer": "B"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "王顺东", 
+        "D": "吴天保", 
+        "pinyin": "xlysjzshjfxbyysjds", 
+        "question": "下列艺术家中是汉剧夫行表演艺术家的是（ ）？", 
+        "sn": "517", 
+        "answer": "B"
+      }, 
+      {
+        "A": "周信芳", 
+        "C": "余洪元", 
+        "B": "童金钟", 
+        "D": "吴天保", 
+        "pinyin": "xlysjzshjfxbyysjds", 
+        "question": "下列艺术家中是汉剧夫行表演艺术家的是（ ）？", 
+        "sn": "518", 
+        "answer": "B"
+      }, 
+      {
+        "A": "熊长武", 
+        "C": "余洪元", 
+        "B": "童金钟", 
+        "D": "吴天保", 
+        "pinyin": "xlysjzshjfxbyysjds", 
+        "question": "下列艺术家中是汉剧夫行表演艺术家的是（ ）？", 
+        "sn": "519", 
+        "answer": "A"
+      }, 
+      {
+        "A": "湖北崇阳", 
+        "C": "河南南阳", 
+        "B": "湖北襄阳", 
+        "D": "河南信阳", 
+        "pinyin": "hdmjmyxsr", 
+        "question": "汉调名家米应先是（ ）人？", 
+        "sn": "520", 
+        "answer": "A"
+      }, 
+      {
+        "A": "关公", 
+        "C": "张飞", 
+        "B": "包公", 
+        "D": "刘备", 
+        "pinyin": "hdmjmysyx", 
+        "question": "汉调名家米应擅演（ ）戏？", 
+        "sn": "521", 
+        "answer": "A"
+      }, 
+      {
+        "A": "我家", 
+        "C": "戏班班主", 
+        "B": "本人", 
+        "D": "大家", 
+        "pinyin": "hjhhzbjz", 
+        "question": "汉剧行话中本家指（ ）？", 
+        "sn": "522", 
+        "answer": "C"
+      }, 
+      {
+        "A": "戏园老板", 
+        "C": "家族族长", 
+        "B": "戏班老板", 
+        "D": "戏班台柱演员", 
+        "pinyin": "hjhhzlbsz", 
+        "question": "汉剧行话中老板是指（ ）？", 
+        "sn": "523", 
+        "answer": "D"
+      }, 
+      {
+        "A": "有理天不愁", 
+        "C": "睡到晌午后", 
+        "B": "台上一笔勾", 
+        "D": "酒肉不入口", 
+        "pinyin": "xyztxjycdxyjs", 
+        "question": "戏谚中“台下结冤仇”的下一句是（ ）？", 
+        "sn": "524", 
+        "answer": "B"
+      }, 
+      {
+        "A": "赵艳容", 
+        "C": "刘利华", 
+        "B": "董卓", 
+        "D": "周驼子", 
+        "pinyin": "xlrwngshjyzfzdrw", 
+        "question": "下列人物哪个是汉剧《宇宙锋》中的人物？", 
+        "sn": "525", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三国演义", 
+        "C": "西游记", 
+        "B": "水浒传", 
+        "D": "儿女英雄传", 
+        "pinyin": "hjzfcqcy", 
+        "question": "汉剧《捉放曹》取材于（ ）？", 
+        "sn": "526", 
+        "answer": "A"
+      }, 
+      {
+        "A": "三生大王", 
+        "C": "汉剧伶王", 
+        "B": "人民艺术家", 
+        "D": "活张飞", 
+        "pinyin": "hjysjwtbbyw", 
+        "question": "汉剧艺术家吴天保被誉为（ ）？", 
+        "sn": "527", 
+        "answer": "A"
+      }, 
+      {
+        "A": "人民艺术家", 
+        "C": "活张飞", 
+        "B": "汉剧伶王", 
+        "D": "汉剧大王", 
+        "pinyin": "hjysjwtbbyw", 
+        "question": "汉剧艺术家吴天保被誉为（ ）？", 
+        "sn": "528", 
+        "answer": "D"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "余叔岩", 
+        "B": "俞振飞", 
+        "D": "谭鑫培", 
+        "pinyin": "pjhjsbnclgcbhdjkdss", 
+        "question": "评价“汉剧三百年，出了个陈伯华”的京昆大师是（ ）？", 
+        "sn": "529", 
+        "answer": "B"
+      }, 
+      {
+        "A": "胡和颜", 
+        "C": "王荔", 
+        "B": "邱玲", 
+        "D": "夏青玲", 
+        "pinyin": "xlyyzsyhjysdscbhdwdcrds", 
+        "question": "下列演员中属于汉剧艺术大师陈伯华第五代传人的是（ ）？", 
+        "sn": "530", 
+        "answer": "C"
+      }, 
+      {
+        "A": "刘子薇", 
+        "C": "邱玲", 
+        "B": "胡和颜", 
+        "D": "王荔", 
+        "pinyin": "xlxjmhjhdzznwbshjyy", 
+        "question": "下列戏剧梅花奖获得者中哪位不是汉剧演员？", 
+        "sn": "531", 
+        "answer": "A"
+      }, 
+      {
+        "A": "周恩来", 
+        "C": "李先念", 
+        "B": "董必武", 
+        "D": "陈毅", 
+        "pinyin": "wwhhjyjysdgjldrs", 
+        "question": "为武汉汉剧院建院诗的国家领导人是（ ）？", 
+        "sn": "532", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjwzgqcy", 
+        "question": "汉剧《文昭关》取材于（ ）？", 
+        "sn": "533", 
+        "answer": "A"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjbmlqcy", 
+        "question": "汉剧《白门楼》取材于（ ）？", 
+        "sn": "534", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjwygqcy", 
+        "question": "汉剧《未央宫》取材于（ ）？", 
+        "sn": "535", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjszjfqcy", 
+        "question": "汉剧《失子惊疯》取材于（ ）？", 
+        "sn": "536", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "水浒后传》", 
+        "pinyin": "hjdysjqcy", 
+        "question": "汉剧《打渔杀家》取材于（ ）？", 
+        "sn": "537", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjdgmcqcy", 
+        "question": "汉剧《打鼓骂曹》取材于（ ）？", 
+        "sn": "538", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《警世通言》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjytcqcy", 
+        "question": "汉剧《玉堂春》取材于（ ）？", 
+        "sn": "539", 
+        "answer": "C"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjxhtqcy", 
+        "question": "汉剧《兴汉图》取材于（ ）？", 
+        "sn": "540", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "史记》", 
+        "pinyin": "hjzcsqcy", 
+        "question": "汉剧《战长沙》取材于（ ）？", 
+        "sn": "541", 
+        "answer": "B"
+      }, 
+      {
+        "A": "《东周列国志》", 
+        "C": "《南府秘本》", 
+        "B": "《三国演义》", 
+        "D": "《磨尘鉴》", 
+        "pinyin": "hjgfzjqcy", 
+        "question": "汉剧《贵妃醉酒》取材于（ ）？", 
+        "sn": "542", 
+        "answer": "D"
+      }, 
+      {
+        "A": "沈云陔", 
+        "C": "陈伯华", 
+        "B": "吴天保", 
+        "D": "邱玲", 
+        "pinyin": "cjymgdsnwysjdbjm", 
+        "question": "楚剧《夜梦冠带》是哪位艺术家代表剧目？", 
+        "sn": "543", 
+        "answer": "A"
+      }, 
+      {
+        "A": "高腔", 
+        "C": "应山腔", 
+        "B": "仙腔", 
+        "D": "小调", 
+        "pinyin": "cjymgdzzyyylnzcq", 
+        "question": "楚剧《夜梦冠带》中主要运用了哪种唱腔？", 
+        "sn": "544", 
+        "answer": "A"
+      }, 
+      {
+        "A": "黄陂话", 
+        "C": "恩施话", 
+        "B": "武汉话", 
+        "D": "河南话", 
+        "pinyin": "hbdgsynzfyyc", 
+        "question": "湖北大鼓是用哪种方言演唱？", 
+        "sn": "545", 
+        "answer": "A"
+      }, 
+      {
+        "A": "1949", 
+        "C": "1952", 
+        "B": "1950", 
+        "D": "1955", 
+        "pinyin": "hbdgzsdmznyn", 
+        "question": "湖北大鼓正式定名在哪一年？", 
+        "sn": "546", 
+        "answer": "B"
+      }, 
+      {
+        "A": "四平调", 
+        "C": "应山腔", 
+        "B": "仙腔", 
+        "D": "小调", 
+        "pinyin": "hbdgzyqds", 
+        "question": "湖北大鼓主要腔调是（ ）？", 
+        "sn": "547", 
+        "answer": "A"
+      }, 
+      {
+        "A": "北路", 
+        "C": "南北路", 
+        "B": "南路", 
+        "D": "西路", 
+        "pinyin": "xlngxxbshbdgdlp", 
+        "question": "下列哪个选项不是湖北大鼓的流派？", 
+        "sn": "548", 
+        "answer": "D"
+      }, 
+      {
+        "A": "2008", 
+        "C": "2010", 
+        "B": "2009", 
+        "D": "2011", 
+        "pinyin": "hbdgznynrxgjfwzwhycml", 
+        "question": "湖北大鼓在哪一年入选国家非物质文化遗产名录？", 
+        "sn": "549", 
+        "answer": "A"
+      }, 
+      {
+        "A": "张明智", 
+        "C": "陈伯华", 
+        "B": "吴天保", 
+        "D": "邱玲", 
+        "pinyin": "xlysjzsyhbdggjjfwzwhycdbxxmdbxccrds", 
+        "question": "下列艺术家中属于湖北大鼓国家级非物质文化遗产代表性项目代表性传承人的是（ ）？", 
+        "sn": "550", 
+        "answer": "A"
+      }, 
+      {
+        "A": "《亲生的儿子》", 
+        "C": "《酒司机》", 
+        "B": "《这样的媳妇》", 
+        "D": "《招聘》", 
+        "pinyin": "xljmzbshbdgljrwzmzdbzds", 
+        "question": "下列剧目中不是湖北大鼓领军人物张明智代表作的是（ ）？", 
+        "sn": "551", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《定军山》", 
+        "C": "《生死恨》", 
+        "B": "《贵妃醉酒》", 
+        "D": "《小城故事》", 
+        "pinyin": "zgdybxqdys", 
+        "question": "中国第一部戏曲电影是（ ）？", 
+        "sn": "552", 
+        "answer": "A"
+      }, 
+      {
+        "A": "小生", 
+        "C": "文武老生", 
+        "B": "老旦", 
+        "D": "武旦", 
+        "pinyin": "jjdjszhzysmhdby", 
+        "question": "京剧《定军山》中黄忠由什么行当扮演？", 
+        "sn": "553", 
+        "answer": "C"
+      }, 
+      {
+        "A": "三生大王", 
+        "C": "汉剧伶王", 
+        "B": "人民艺术家", 
+        "D": "伶界大王", 
+        "pinyin": "jjysjtxpbcw", 
+        "question": "京剧艺术家谭鑫培被称为（ ）？", 
+        "sn": "554", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《定军山》", 
+        "C": "《生死恨》", 
+        "B": "《贵妃醉酒》", 
+        "D": "《小城故事》", 
+        "pinyin": "zgdybdys", 
+        "question": "中国第一部电影是（ ）？", 
+        "sn": "555", 
+        "answer": "A"
+      }, 
+      {
+        "A": "踩盘子", 
+        "C": "踩碎步", 
+        "B": "踩高跷", 
+        "D": "圆场", 
+        "pinyin": "dyjzhjdhgzcldtbs", 
+        "question": "董瑶阶在汉剧《打花鼓》中创立的台步是（ ）？", 
+        "sn": "556", 
+        "answer": "A"
+      }, 
+      {
+        "A": "平", 
+        "C": "轻", 
+        "B": "稳", 
+        "D": "跑", 
+        "pinyin": "xlxxzbsydyjcltbcpzdzylds", 
+        "question": "下列选项中不属于董瑶阶创立台步“踩盘子”动作要领的是（ ）？", 
+        "sn": "557", 
+        "answer": "D"
+      }, 
+      {
+        "A": "《白蛇传》", 
+        "C": "《贵妃醉酒》", 
+        "B": "《牡丹亭》", 
+        "D": "《四进士》", 
+        "pinyin": "hjdxcsncxzdyz", 
+        "question": "汉剧《盗仙草》是哪出戏中的一折？", 
+        "sn": "558", 
+        "answer": "A"
+      }, 
+      {
+        "A": "武戏", 
+        "C": "贺岁戏", 
+        "B": "文戏", 
+        "D": "祭祀戏", 
+        "pinyin": "hjdxcsysmx", 
+        "question": "汉剧《盗仙草》属于什么戏？", 
+        "sn": "559", 
+        "answer": "A"
+      }, 
+      {
+        "A": "末", 
+        "C": "净", 
+        "B": "外", 
+        "D": "贴", 
+        "pinyin": "hjdxczbszsysmhd", 
+        "question": "汉剧《盗仙草》中白素贞属于什么行当？", 
+        "sn": "560", 
+        "answer": "D"
+      }, 
+      {
+        "A": "提手枪", 
+        "C": "短枪", 
+        "B": "出手枪", 
+        "D": "斜手枪", 
+        "pinyin": "hjdxczwjydssmq", 
+        "question": "汉剧《盗仙草》中武将用的是什么枪？", 
+        "sn": "561", 
+        "answer": "B"
+      }, 
+      {
+        "A": "3", 
+        "C": "6", 
+        "B": "5", 
+        "D": "7", 
+        "pinyin": "cjlcjzcxljgrw", 
+        "question": "楚剧《刘崇景》中出现了几个人物？", 
+        "sn": "562", 
+        "answer": "A"
+      }, 
+      {
+        "A": "花旦", 
+        "C": "老旦", 
+        "B": "刀马旦", 
+        "D": "娃娃生", 
+        "pinyin": "cjlcjzfjssmhd", 
+        "question": "楚剧《刘崇景》中凤娇是什么行当？", 
+        "sn": "563", 
+        "answer": "A"
+      }, 
+      {
+        "A": "小圆场", 
+        "C": "花旦步", 
+        "B": "十字步", 
+        "D": "老旦步", 
+        "pinyin": "xlnxbfbscjlcjzfjdbf", 
+        "question": "下列哪些步法不是楚剧《刘崇景》中凤娇的步法？", 
+        "sn": "564", 
+        "answer": "D"
+      }, 
+      {
+        "A": "汉剧", 
+        "C": "南剧", 
+        "B": "荆河戏", 
+        "D": "昆曲", 
+        "pinyin": "xlngjzbsyhbs", 
+        "question": "下列哪个剧种不属于湖北省？", 
+        "sn": "565", 
+        "answer": "D"
+      }, 
+      {
+        "A": "湖北高腔", 
+        "C": "远安花鼓戏", 
+        "B": "楚剧", 
+        "D": "壮剧", 
+        "pinyin": "xlngjzbsyhbs", 
+        "question": "下列哪个剧种不属于湖北省？", 
+        "sn": "566", 
+        "answer": "D"
+      }, 
+      {
+        "A": "襄阳花鼓戏", 
+        "C": "鄂西柳子戏", 
+        "B": "文曲戏", 
+        "D": "花灯戏", 
+        "pinyin": "xlngjzbsyhbs", 
+        "question": "下列哪个剧种不属于湖北省？", 
+        "sn": "567", 
+        "answer": "D"
+      }, 
+      {
+        "A": "阳新采茶戏", 
+        "C": "黄梅采茶戏", 
+        "B": "郧阳花鼓戏", 
+        "D": "安顺地戏", 
+        "pinyin": "xlngjzbsyhbs", 
+        "question": "下列哪个剧种不属于湖北省？", 
+        "sn": "568", 
+        "answer": "D"
+      }, 
+      {
+        "A": "南剧", 
+        "C": "湖北越调", 
+        "B": "山二黄", 
+        "D": "琼剧", 
+        "pinyin": "xlngjzbsyhbs", 
+        "question": "下列哪个剧种不属于湖北省？", 
+        "sn": "569", 
+        "answer": "D"
+      }, 
+      {
+        "A": "人民俱乐部", 
+        "C": "血花世界", 
+        "B": "新市场", 
+        "D": "天声戏院", 
+        "pinyin": "xlxxzbsymzlycymcds", 
+        "question": "下列选项中不属于“民众乐园”曾用名称的是（ ）？", 
+        "sn": "570", 
+        "answer": "D"
+      }, 
+      {
+        "A": "起霸", 
+        "C": "踢腿", 
+        "B": "走边", 
+        "D": "趟马", 
+        "pinyin": "xlxxzsyxqcsds", 
+        "question": "下列选项中属于戏曲程式的是（ ）？", 
+        "sn": "571", 
+        "answer": "C"
+      }, 
+      {
+        "A": "全霸", 
+        "C": "男霸", 
+        "B": "半霸", 
+        "D": "水袖", 
+        "pinyin": "xlngxxbsxqcsqbdzl", 
+        "question": "下列哪个选项不是戏曲程式起霸的种类？", 
+        "sn": "572", 
+        "answer": "D"
+      }, 
+      {
+        "A": "云手", 
+        "C": "飞脚", 
+        "B": "踢腿", 
+        "D": "背躬", 
+        "pinyin": "xlngxxbsxqcszbdzh", 
+        "question": "下列哪个选项不是戏曲程式走边的组合？", 
+        "sn": "573", 
+        "answer": "D"
+      }, 
+      {
+        "A": "圆场", 
+        "C": "挥鞭", 
+        "B": "转身", 
+        "D": "撩袍", 
+        "pinyin": "xlngxxbsxqcstmddz", 
+        "question": "下列哪个选项不是戏曲程式趟马的动作？", 
+        "sn": "574", 
+        "answer": "D"
+      }, 
+      {
+        "A": "歌舞", 
+        "C": "滑稽戏", 
+        "B": "说唱", 
+        "D": "颂词", 
+        "pinyin": "xlxxngbszgxqzyysxs", 
+        "question": "下列选项哪个不是中国戏曲主要艺术形式？", 
+        "sn": "575", 
+        "answer": "C"
+      }, 
+      {
+        "A": "京剧", 
+        "C": "黄梅戏", 
+        "B": "豫剧", 
+        "D": "越剧", 
+        "pinyin": "wgzdddfjzs", 
+        "question": "我国最大的地方剧种是（ ）？", 
+        "sn": "576", 
+        "answer": "B"
+      }, 
+      {
+        "A": "豫剧", 
+        "C": "越剧", 
+        "B": "黄梅戏", 
+        "D": "汉剧", 
+        "pinyin": "lsbyzytjsygqmdaqgstsj", 
+        "question": "《梁山伯与祝英台》讲述一个凄美的爱情故事，它是（ ）剧？", 
+        "sn": "577", 
+        "answer": "C"
+      }, 
+      {
+        "A": "豫剧", 
+        "C": "越剧", 
+        "B": "黄梅戏", 
+        "D": "汉剧", 
+        "pinyin": "ahdzydfxjs", 
+        "question": "安徽的主要地方戏剧是（ ）？", 
+        "sn": "578", 
+        "answer": "B"
+      }, 
+      {
+        "A": "虚拟性", 
+        "C": "程序性", 
+        "B": "综合性", 
+        "D": "完整性", 
+        "pinyin": "swbxbtxlqrbwxbzdszgxjbyd", 
+        "question": "“三五步行遍天下，六七人百万雄兵”指的是中国戏剧表演的（ ）？", 
+        "sn": "579", 
+        "answer": "A"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "汉剧", 
+        "D": "南剧", 
+        "pinyin": "yyzxjlxyhnjhbbbdqts", 
+        "question": "有一种戏剧流行与河南及湖北北部地区，它是（ ）？", 
+        "sn": "580", 
+        "answer": "C"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "汉剧", 
+        "D": "越剧", 
+        "pinyin": "yyzxjjzlxyzjydts", 
+        "question": "有一种戏剧剧种流行于浙江一带，它是（ ）？", 
+        "sn": "581", 
+        "answer": "D"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "梨园戏", 
+        "D": "越剧", 
+        "pinyin": "yyzxjjzlxyfjydts", 
+        "question": "有一种戏剧剧种流行于福建一带，它是（ ）？", 
+        "sn": "582", 
+        "answer": "C"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "梨园戏", 
+        "D": "秦腔", 
+        "pinyin": "yyzxjjzlxysxydts", 
+        "question": "有一种戏剧剧种流行于陕西一带，它是（ ）？", 
+        "sn": "583", 
+        "answer": "D"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "昆曲", 
+        "D": "秦腔", 
+        "pinyin": "yyzxjjzlxyjsydts", 
+        "question": "有一种戏剧剧种流行于江苏一带，它是（ ）？", 
+        "sn": "584", 
+        "answer": "B"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "歌仔戏", 
+        "D": "秦腔", 
+        "pinyin": "yyzxjjzlxytwydts", 
+        "question": "有一种戏剧剧种流行于台湾一带，它是（ ）？", 
+        "sn": "585", 
+        "answer": "B"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 粤剧", 
+        "B": "梨园戏", 
+        "D": "秦腔", 
+        "pinyin": "yyzxjjzlxygdydts", 
+        "question": "有一种戏剧剧种流行于广东一带，它是（ ）？", 
+        "sn": "586", 
+        "answer": "C"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 粤剧", 
+        "B": "川剧", 
+        "D": "秦腔", 
+        "pinyin": "yyzxjjzlxyscydts", 
+        "question": "有一种戏剧剧种流行于四川一带，它是（ ）？", 
+        "sn": "587", 
+        "answer": "B"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 粤剧", 
+        "B": "川剧", 
+        "D": "藏剧", 
+        "pinyin": "yyzxjjzlxyxzydts", 
+        "question": "有一种戏剧剧种流行于西藏一带，它是（ ）？", 
+        "sn": "588", 
+        "answer": "D"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "余叔岩", 
+        "B": "孟小冬", 
+        "D": "王瑶卿", 
+        "pinyin": "bcwttjzdjjysjsnw", 
+        "question": "被称为“通天教主”的京剧艺术家是哪位？", 
+        "sn": "589", 
+        "answer": "D"
+      }, 
+      {
+        "A": "梅派", 
+        "C": "荀派", 
+        "B": "程派", 
+        "D": "麟派", 
+        "pinyin": "jjdszxfcldlslps", 
+        "question": "京剧大师周信芳创立的老生流派是（ ）？", 
+        "sn": "590", 
+        "answer": "D"
+      }, 
+      {
+        "A": "三庆", 
+        "C": "春台", 
+        "B": "四喜", 
+        "D": "桂字科", 
+        "pinyin": "xlngxxbssdhb", 
+        "question": "下列哪个选项不是“四大徽班”？", 
+        "sn": "591", 
+        "answer": "D"
+      }, 
+      {
+        "A": "叶春善", 
+        "C": "陈楚材", 
+        "B": "傅心一", 
+        "D": "郑双云", 
+        "pinyin": "jjfzsszmdkbflcsscld", 
+        "question": "京剧发展史上著名的科班富连成是谁创立的？", 
+        "sn": "592", 
+        "answer": "A"
+      }, 
+      {
+        "A": "梅兰芳", 
+        "C": "余叔岩", 
+        "B": "孟小冬", 
+        "D": "王瑶卿", 
+        "pinyin": "zjjjbcwdhdsnwysj", 
+        "question": "在京剧界被称为“冬皇”的是哪位艺术家？", 
+        "sn": "593", 
+        "answer": "B"
+      }, 
+      {
+        "A": "兰花指", 
+        "C": "菊花指", 
+        "B": "梅花指", 
+        "D": "荷花指", 
+        "pinyin": "xqdjdzfybbcw", 
+        "question": "戏曲旦角的指法一般被称为（ ）？", 
+        "sn": "594", 
+        "answer": "A"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 昆曲", 
+        "B": "川剧", 
+        "D": "藏剧", 
+        "pinyin": "bywbxzsdsnygjz", 
+        "question": "被誉为“百戏之师”的是哪一个剧种？", 
+        "sn": "595", 
+        "answer": "C"
+      }, 
+      {
+        "A": "京剧", 
+        "C": " 豫剧", 
+        "B": "川剧", 
+        "D": "藏剧", 
+        "pinyin": "jjmgygsyzyngjztmjm", 
+        "question": "京剧《穆桂英挂帅》移植于哪个剧种同名剧目？", 
+        "sn": "596", 
+        "answer": "C"
+      }, 
+      {
+        "A": "1790", 
+        "C": "1800", 
+        "B": "1799", 
+        "D": "1900", 
+        "pinyin": "sdhbjjsnyn", 
+        "question": "四大徽班进京是哪一年？", 
+        "sn": "597", 
+        "answer": "A"
+      }, 
+      {
+        "A": "浙江温州", 
+        "C": "河南开封", 
+        "B": "福建泉州", 
+        "D": "湖北襄阳", 
+        "pinyin": "synxxcywgsmdq", 
+        "question": "宋元南戏形成于我国什么地区？", 
+        "sn": "598", 
+        "answer": "A"
+      }, 
+      {
+        "A": "程长庚", 
+        "C": "时小福", 
+        "B": "徐小香", 
+        "D": "刘赶三", 
+        "pinyin": "jjssbcwlymsdsnwysj", 
+        "question": "京剧史上被称为“梨园庙首”的是哪位艺术家？", 
+        "sn": "599", 
+        "answer": "A"
+      }, 
+      {
+        "A": "谭鑫培、王瑶", 
+        "C": "梅巧玲、余紫", 
+        "B": "梅兰芳、徐慕", 
+        "D": "郝兰田、杨鸣玉", 
+        "pinyin": "lytwsznlwjjgxj", 
+        "question": "“梨园汤武”是指哪两位京剧革新家？", 
+        "sn": "600", 
+        "answer": "A"
+      }
+    ]
+  }
+];
+
+        var oText = document.querySelector("#txt");
+        var oSearch = document.querySelector("#search");
+        var oContent = document.querySelector("#div1");
+        window.onload = function() {
+            oSearch.onclick = function() {
+                if (oText.value.length<3)
+                {
+                    alert("至少3个首字母");
+                    return;
+                }
+                oContent.innerHTML="";
+                for(n=0;n<SETS.length;n++){
+                    var qs=SETS[n]["questions"];
+                    for(j=0;j<qs.length;j++){
+                        if (qs[j]["pinyin"].indexOf(oText.value) != -1)
+                        {
+                            if (qs[j][qs[j]["answer"]].indexOf("color") == -1)
+                            {
+                                qs[j][qs[j]["answer"]]="<span style='color:green; font-weight: bold'>"+qs[j][qs[j]["answer"]]+"</span>";
+                            }
+                            if (oContent.innerText.indexOf(qs[j]["question"]) == -1)
+                            {
+                            oContent.innerHTML=oContent.innerHTML + "<li>" +  qs[j]["sn"] + "." + qs[j]["question"] + " - <span style='color:green; font-weight: bold'>(" + qs[j]["answer"] + ")</span> </ul><ul>A " + qs[j]["A"] + "</ul><ul>B " + qs[j]["B"] + "</ul><ul>C " + qs[j]["C"] + "</ul><ul>D " + qs[j]["D"] + "</ul></li>";
+                            }
+                        }
+                        }
+                    }
+                if (oContent.innerHTML=="")
+                {
+                    oContent.innerHTML="查无此题"
+                }
+                }
+            }
+    </script>
+</body>
+</html>
